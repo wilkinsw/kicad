@@ -1,0 +1,221 @@
+(footprint "TE_MATE-N-LOK_2-1445091-4"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "99de5b63-bb45-4a5a-a1a4-8f5b564e9d88")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Val**"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f159b669-34bb-493a-b45c-bebbfd8e5371")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "TE_MATE-N-LOK_2-1445091-4"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c6a87e07-fc29-44d7-9917-c8bd7ad5d445")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3c7dc1b9-3c09-4033-8a65-cd1aa1fd0a91")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bf6131ef-5784-4148-8148-535a7a61b6cf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -6 -2)
+		(end -6 -5.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d1919818-46ad-4021-b31e-2ff4ecd94a8f")
+	)
+	(fp_line
+		(start -5 -5.75)
+		(end -6 -5.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6c906d64-e78f-4940-ae82-8032d3c7c872")
+	)
+	(fp_line
+		(start 4.5 -9)
+		(end 5 -8.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "447d0d78-3cc7-48b5-8945-d44e8f8eccc0")
+	)
+	(fp_line
+		(start 4.5 -9)
+		(end 5.5 -9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "dfca6aca-3b51-4267-854c-f80204718136")
+	)
+	(fp_line
+		(start 5 -8.5)
+		(end 4.5 -9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f831cf73-eea5-47e6-bd2d-c73734b7f6db")
+	)
+	(fp_line
+		(start 5.5 -9)
+		(end 5 -8.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0bf1fb76-d64b-4a51-9687-307c04aab135")
+	)
+	(fp_line
+		(start 6 -5.75)
+		(end 7 -5.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "243ea8e0-d172-46eb-8f96-327e42324ff2")
+	)
+	(fp_line
+		(start 7 -2)
+		(end 7 -5.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7b95f752-4f27-4f10-b190-1f83e01ffba3")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "812ee451-fe1c-41a9-881e-8d454b33318c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 5 -6.5)
+		(size 1.27 2.92)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1640419948)
+		(thermal_bridge_angle 45)
+		(uuid "be4fdfbe-4a57-4a9f-bfb5-6037ddf430a9")
+	)
+	(pad "2" smd roundrect
+		(at 2 -6.5)
+		(size 1.27 2.92)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1640419948)
+		(thermal_bridge_angle 45)
+		(uuid "aee9d45a-76bc-4e78-8273-9a24024ed562")
+	)
+	(pad "3" smd roundrect
+		(at -1 -6.5)
+		(size 1.27 2.92)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1640419948)
+		(thermal_bridge_angle 45)
+		(uuid "c175883c-4d7e-44f6-8074-aea83cefbb85")
+	)
+	(pad "4" smd roundrect
+		(at -4 -6.5)
+		(size 1.27 2.92)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1640419948)
+		(thermal_bridge_angle 45)
+		(uuid "75abde7c-a4c8-4082-b172-186851771532")
+	)
+	(pad "S" smd roundrect
+		(at -7.635 -1.02)
+		(size 3.43 1.65)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "9fb23e98-0fd8-43bf-939f-0d964213beec")
+	)
+	(pad "S" smd roundrect
+		(at 8.635 -1.02)
+		(size 3.43 1.65)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "c49a0f5d-2463-442c-aafe-e1256bc734c5")
+	)
+	(model "../../3dmodels/Connector_Nova.3dshapes/2-1445091-4.step"
+		(offset
+			(xyz 0.5 -3.6 2.4)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
