@@ -567,7 +567,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Stackpole Electronics Inc"
+		(property "Manufacturer" "Generic"
 			(at 0.254 -16.51 0)
 			(effects
 				(font
@@ -587,6 +587,15 @@
 		)
 		(property "Purchase Link" "https://www.digikey.com/short/2t349qv9"
 			(at 0 -28.702 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "2512"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)

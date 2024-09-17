@@ -83,6 +83,15 @@
 				(hide yes)
 			)
 		)
+		(property "Package" "16-TSSOP"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "ki_keywords" "i2c"
 			(at 0 0 0)
 			(effects
