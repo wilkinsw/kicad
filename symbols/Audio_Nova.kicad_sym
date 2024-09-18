@@ -22,7 +22,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_CSP:LFCSP-32-1EP_5x5mm_P0.5mm_EP3.5x3.5mm_ThermalVias"
+		(property "Footprint" "Audio_Nova:LFCSP-32-1EP_5x5mm_P0.5mm_EP3.5x3.5mm_ThermalVias"
 			(at 0 -58.928 0)
 			(effects
 				(font
