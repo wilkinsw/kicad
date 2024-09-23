@@ -1830,7 +1830,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "LED diode"
+		(property "ki_keywords" "led"
 			(at 0 0 0)
 			(effects
 				(font
