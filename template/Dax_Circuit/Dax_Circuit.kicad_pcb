@@ -112,7 +112,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "export")
+			(outputdirectory "export/gerbers")
 		)
 	)
 	(property "REVISION" "A1")
