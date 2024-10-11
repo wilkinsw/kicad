@@ -3348,6 +3348,228 @@
 			)
 		)
 	)
+	(symbol "JST B4B-EH-A"
+		(pin_names
+			(offset 1.016) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at -2.54 8.382 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "B4B-EH-A"
+			(at -2.54 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Connector_Nova:JST_B4B-EH-A"
+			(at 0 -21.844 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eEH.pdf"
+			(at -0.254 -23.368 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CONN HEADER VERT 4POS 2.5MM"
+			(at 0 -18.288 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "JST"
+			(at -0.254 -13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product Number" "B4B-EH-A"
+			(at 0 -16.002 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase Link" "https://www.digikey.com/short/mhw7m314"
+			(at 0.254 -25.908 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "connector"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "JST B4B-EH-A_0_0"
+			(rectangle
+				(start -3.175 -2.8575)
+				(end -1.5875 -2.2225)
+				(stroke
+					(width 0.1)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start -3.175 -0.3175)
+				(end -1.5875 0.3175)
+				(stroke
+					(width 0.1)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start -3.175 2.2225)
+				(end -1.5875 2.8575)
+				(stroke
+					(width 0.1)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start -3.175 4.7625)
+				(end -1.5875 5.3975)
+				(stroke
+					(width 0.1)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(pin passive line
+				(at -7.62 5.08 0)
+				(length 5.08)
+				(name "1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -7.62 2.54 0)
+				(length 5.08)
+				(name "2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -7.62 0 0)
+				(length 5.08)
+				(name "3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -7.62 -2.54 0)
+				(length 5.08)
+				(name "4"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+		(symbol "JST B4B-EH-A_1_1"
+			(polyline
+				(pts
+					(xy 5.08 7.62) (xy -2.54 7.62) (xy -3.81 6.35) (xy -3.81 -3.81) (xy -2.54 -5.08) (xy 5.08 -5.08)
+					(xy 5.08 7.62)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+	)
 	(symbol "JST B4B-ZR"
 		(pin_names
 			(offset 1.016) hide)
@@ -3355,7 +3577,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "J"
-			(at 0 5.08 0)
+			(at 2.794 7.366 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3425,7 +3647,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 0 0 0)
+			(at -1.27 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3460,56 +3682,250 @@
 				(hide yes)
 			)
 		)
+		(symbol "JST B4B-ZR_0_0"
+			(rectangle
+				(start -4.445 -4.1275)
+				(end -2.8575 -3.4925)
+				(stroke
+					(width 0.1)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start -4.445 -1.5875)
+				(end -2.8575 -0.9525)
+				(stroke
+					(width 0.1)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start -4.445 0.9525)
+				(end -2.8575 1.5875)
+				(stroke
+					(width 0.1)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start -4.445 3.4925)
+				(end -2.8575 4.1275)
+				(stroke
+					(width 0.1)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(pin passive line
+				(at -8.89 3.81 0)
+				(length 5.08)
+				(name "1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -8.89 1.27 0)
+				(length 5.08)
+				(name "2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -8.89 -1.27 0)
+				(length 5.08)
+				(name "3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -8.89 -3.81 0)
+				(length 5.08)
+				(name "4"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
 		(symbol "JST B4B-ZR_1_1"
-			(rectangle
-				(start -1.27 -4.953)
-				(end 0 -5.207)
+			(polyline
+				(pts
+					(xy 3.81 6.35) (xy -3.81 6.35) (xy -5.08 5.08) (xy -5.08 -5.08) (xy -3.81 -6.35) (xy 3.81 -6.35)
+					(xy 3.81 6.35)
+				)
 				(stroke
-					(width 0.1524)
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+	)
+	(symbol "MATE-N-LOK 2"
+		(pin_names
+			(offset 1.016) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at -2.5407 6.9865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "2-1445057-2"
+			(at -6.858 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Connector_Nova:TE_2-1445057-2"
+			(at -0.508 -22.352 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.te.com/usa-en/product-2-1445057-2.datasheet.pdf"
+			(at 0.254 -26.924 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CONN HEADER SMD R/A 2POS 3MM"
+			(at 0 -17.018 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TE Connectivity AMP Connectors"
+			(at -0.254 -19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product Number" "2-1445057-2"
+			(at 0 -14.478 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase Link" "https://www.digikey.com/short/f9w5tc27"
+			(at -0.254 -24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "connector"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "MATE-N-LOK 2_0_1"
+			(polyline
+				(pts
+					(xy 4.445 6.35) (xy 4.445 6.35)
+				)
+				(stroke
+					(width 0)
 					(type default)
 				)
 				(fill
 					(type none)
 				)
 			)
-			(rectangle
-				(start -1.27 -2.413)
-				(end 0 -2.667)
+		)
+		(symbol "MATE-N-LOK 2_1_1"
+			(polyline
+				(pts
+					(xy -5.08 6.35) (xy -5.08 -7.62) (xy 5.08 -7.62) (xy 6.35 -6.35) (xy 6.35 5.08) (xy 5.08 6.35)
+					(xy -5.08 6.35)
+				)
 				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(rectangle
-				(start -1.27 0.127)
-				(end 0 -0.127)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(rectangle
-				(start -1.27 2.667)
-				(end 0 2.413)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(rectangle
-				(start -1.27 3.81)
-				(end 1.27 -6.35)
-				(stroke
-					(width 0.254)
+					(width 0)
 					(type default)
 				)
 				(fill
@@ -3517,9 +3933,9 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 2.54 0)
-				(length 3.81)
-				(name "Pin_1"
+				(at 8.89 3.81 180)
+				(length 2.54)
+				(name "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3535,9 +3951,9 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 0 0)
-				(length 3.81)
-				(name "Pin_2"
+				(at 8.89 1.27 180)
+				(length 2.54)
+				(name "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3553,34 +3969,16 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 -2.54 0)
-				(length 3.81)
-				(name "Pin_3"
+				(at 8.89 -3.81 180)
+				(length 2.54)
+				(name "SHIELD"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -5.08 -5.08 0)
-				(length 3.81)
-				(name "Pin_4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
+				(number "S"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3806,7 +4204,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Nova:TE_MATE-N-LOK_2-1445091-3"
+		(property "Footprint" "Connector_Nova:TE_2-1445091-3"
 			(at -0.508 -20.828 0)
 			(effects
 				(font
@@ -3895,8 +4293,8 @@
 		(symbol "MATE-N-LOK 3_1_1"
 			(polyline
 				(pts
-					(xy -6.35 8.89) (xy -6.35 -6.35) (xy 3.175 -6.35) (xy 3.81 -6.35) (xy 5.08 -5.08) (xy 5.08 7.62)
-					(xy 3.81 8.89) (xy -6.35 8.89)
+					(xy -6.35 8.89) (xy -6.35 -6.35) (xy 3.81 -6.35) (xy 5.08 -5.08) (xy 5.08 7.62) (xy 3.81 8.89)
+					(xy -6.35 8.89)
 				)
 				(stroke
 					(width 0)
@@ -3994,15 +4392,15 @@
 			)
 		)
 		(property "Value" "2-1445091-4"
-			(at -7.874 0 90)
+			(at -6.35 -0.254 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Connector_Nova:TE_MATE-N-LOK_2-1445091-4"
-			(at -0.508 -20.828 0)
+		(property "Footprint" "Connector_Nova:TE_2-1445091-4"
+			(at -0.508 -24.384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4011,7 +4409,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.te.com/usa-en/product-2-1445091-4.datasheet.pdf"
-			(at 0.508 -23.622 0)
+			(at 0.508 -27.178 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4020,7 +4418,7 @@
 			)
 		)
 		(property "Description" "CONN HEADER SMD R/A 4POS 3MM"
-			(at 0 -17.526 0)
+			(at 0 -21.082 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4029,7 +4427,7 @@
 			)
 		)
 		(property "Manufacturer" "TE Connectivity AMP Connectors"
-			(at -0.254 -14.478 0)
+			(at -0.254 -18.034 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4038,7 +4436,7 @@
 			)
 		)
 		(property "Product Number" "2-1445091-4"
-			(at 0.254 -11.938 0)
+			(at 0.254 -15.494 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4047,7 +4445,7 @@
 			)
 		)
 		(property "Purchase Link" "https://www.digikey.com/short/pcd8pjqq"
-			(at 0.254 -27.178 0)
+			(at 0.254 -30.734 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4074,9 +4472,25 @@
 			)
 		)
 		(symbol "MATE-N-LOK 4_0_1"
-			(rectangle
-				(start -6.35 8.89)
-				(end 5.08 -8.89)
+			(polyline
+				(pts
+					(xy 4.445 7.62) (xy 4.445 7.62)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "MATE-N-LOK 4_1_1"
+			(polyline
+				(pts
+					(xy -5.08 7.62) (xy -5.08 -8.89) (xy 5.08 -8.89) (xy 6.35 -7.62) (xy 6.35 6.35) (xy 5.08 7.62)
+					(xy -5.08 7.62)
+				)
 				(stroke
 					(width 0)
 					(type default)
@@ -4085,10 +4499,8 @@
 					(type background)
 				)
 			)
-		)
-		(symbol "MATE-N-LOK 4_1_1"
 			(pin passive line
-				(at 7.62 6.35 180)
+				(at 8.89 5.08 180)
 				(length 2.54)
 				(name "1"
 					(effects
@@ -4106,7 +4518,7 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 3.81 180)
+				(at 8.89 2.54 180)
 				(length 2.54)
 				(name "2"
 					(effects
@@ -4124,7 +4536,7 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 1.27 180)
+				(at 8.89 0 180)
 				(length 2.54)
 				(name "3"
 					(effects
@@ -4142,7 +4554,7 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 -1.27 180)
+				(at 8.89 -2.54 180)
 				(length 2.54)
 				(name "4"
 					(effects
@@ -4160,7 +4572,7 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 -6.35 180)
+				(at 8.89 -6.35 180)
 				(length 2.54)
 				(name "SHIELD"
 					(effects
