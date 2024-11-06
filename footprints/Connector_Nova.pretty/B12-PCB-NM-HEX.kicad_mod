@@ -1,0 +1,116 @@
+(footprint "B12-PCB-NM-HEX"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4.8 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "570ec280-b51e-493f-9c5f-0e22769dee15")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "B12-PCB-NM-HEX"
+		(at 0 4.8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dc5cecf4-8137-482b-a0a9-b573c9165dc9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 -13 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "494818e4-8fdf-453d-b5f6-0451eba1de5d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://lugsdirect.com/PDF_Webprint/B12-PCB-NM-HEX (WEB).pdf"
+		(at 0 6.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0020896c-632d-4048-bf5b-65d6bacc53d4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 -13 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "809ad974-32f7-4a13-904e-49f794f27537")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ed9e5cd9-bb43-470f-a2e3-08fdc6ccf61e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole oval
+		(at -5.055 0)
+		(size 4 7.5)
+		(drill oval 1.753 4.572)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4ffabf9e-8a38-4a83-86bb-9cf58be9f98d")
+	)
+	(pad "1" smd rect
+		(at 0 0)
+		(size 10.11 7.5)
+		(layers "F.Cu" "F.Mask")
+		(uuid "f30d06ba-bb62-4c08-a8a7-3eef1485c64f")
+	)
+	(pad "1" thru_hole oval
+		(at 5.055 0)
+		(size 4 7.5)
+		(drill oval 1.753 4.572)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5c93be8e-c96e-4dbe-954c-b113ad4605dc")
+	)
+	(model "/git/hardware/kicad/3dmodels/Connector_Nova.3dshapes/B12-PCB-NM-HEX.stp"
+		(offset
+			(xyz 4 0 6)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 90)
+		)
+	)
+)
