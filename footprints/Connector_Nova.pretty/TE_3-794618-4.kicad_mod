@@ -206,7 +206,7 @@
 		(solder_mask_margin 0.102)
 		(uuid "5bbfd611-ec74-43e0-af68-3321bb70e6e1")
 	)
-	(model "/git/hardware/kicad/3dmodels/Connector_Nova.3dshapes/3-794618-4.stp"
+	(model "../../3dmodels/Connector_Nova.3dshapes/3-794618-4.stp"
 		(offset
 			(xyz 0 -4.6 4)
 		)

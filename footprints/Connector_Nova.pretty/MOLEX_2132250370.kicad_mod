@@ -456,7 +456,7 @@
 			)
 		)
 	)
-	(model "/git/hardware/kicad/3dmodels/Connector_Nova.3dshapes/2132250370.step"
+	(model "../../3dmodels/Connector_Nova.3dshapes/2132250370.step"
 		(offset
 			(xyz 0 1 4)
 		)

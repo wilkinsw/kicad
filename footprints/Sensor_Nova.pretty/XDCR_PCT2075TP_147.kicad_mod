@@ -230,7 +230,7 @@
 		(solder_mask_margin 0.102)
 		(uuid "201e17c6-f85c-4aee-9b9c-3d81725070ca")
 	)
-	(model "/git/hardware/kicad/3dmodels/Sensor_Nova.3dshapes/HWSON8_SOT1069-2_NXP.step"
+	(model "../../3dmodels/Sensor_Nova.3dshapes/HWSON8_SOT1069-2_NXP.step"
 		(offset
 			(xyz 0 0 0)
 		)
