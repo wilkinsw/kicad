@@ -133,7 +133,7 @@
 		(remove_unused_layers no)
 		(uuid "1bfbd654-a13c-483e-b97c-b6a97df1f70b")
 	)
-	(model "/git/hardware/kicad/3dmodels/Relay_Nova.3dshapes/c-1558661-8-b-3d.stp"
+	(model "../../3dmodels/Relay_Nova.3dshapes/c-1558661-8-b-3d.stp"
 		(offset
 			(xyz 9.1 -2.5 15.5)
 		)

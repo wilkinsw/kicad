@@ -387,7 +387,7 @@
 		(solder_mask_margin 0.102)
 		(uuid "6d8b2cb3-4b1b-4341-a134-bef412deca72")
 	)
-	(model "/git/hardware/kicad/3dmodels/Connector_Nova.3dshapes/CUI_DEVICES_SJ2-35853A-SMT-TR.igs"
+	(model "../../3dmodels/Connector_Nova.3dshapes/CUI_DEVICES_SJ2-35853A-SMT-TR.igs"
 		(offset
 			(xyz -6 0 2)
 		)

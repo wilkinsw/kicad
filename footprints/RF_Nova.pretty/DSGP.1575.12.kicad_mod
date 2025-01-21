@@ -1,0 +1,444 @@
+(footprint "DSGP.1575.12"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(tags "GPS GNSS Antenna")
+	(property "Reference" "AE1"
+		(at -7.3 0 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "e95523c4-a693-44e7-bbf4-615123f9a7a5")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "DSGP.1575.12"
+		(at 0 2.3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "bd6b848a-29a9-4745-afba-ee58e608d6db")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.taoglas.com/product/12124mm-dsgp-1575-12-gps-l1-galileo-e1-ceramic-patch/"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "89673f18-e3cd-4ce9-a9f8-d4173cd1c646")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "RF ANT 1.575GHZ CER PATCH SLD"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9ee471dc-1d23-4d6a-90dd-bd2e65da9078")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "Taoglas Limited"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b80870ed-6e6e-4cc6-8afc-74b4064eb9df")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Product Number" "DSGP.1575.12.4.A.02"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "005802e7-1804-40f7-adc2-69f39ef7e506")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Purchase Link" "https://www.digikey.com/short/rjv93jn4"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a5075b98-68be-4a12-9637-e4631296a55b")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Type" "SMD"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c3390f84-c5bd-4552-919e-a0b4b0612b5a")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Sim.Device" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cd3bd3fc-8f4c-4c02-9e1b-5d2e665bf663")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Sim.Library" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cee267c7-88e5-4091-ad1d-37e7ac35c2e2")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Sim.Name" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7757efc2-ed71-4386-9ad4-5a3d28b8de05")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Sim.Pins" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a585824e-580b-469d-9504-d6b862a4b360")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Sim.Type" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7240de96-2e54-4a5e-9c2f-f0de97a5d905")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+		)
+	)
+	(sheetname "/GNSS/")
+	(sheetfile "gnss.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -6.1214 -2.68965)
+		(end -6.1214 -1.80615)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "05243913-cbfd-4437-bb94-45582f36e61d")
+	)
+	(fp_line
+		(start -6.1214 1.80615)
+		(end -6.1214 2.68965)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7ed597c5-cbdd-4940-8028-3191c4842f4d")
+	)
+	(fp_line
+		(start -2.68965 6.1214)
+		(end -1.33604 6.1214)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "15150819-a83a-4684-b651-398d6930ed0f")
+	)
+	(fp_line
+		(start -1.80615 -6.1214)
+		(end -2.68965 -6.1214)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b42ab194-d0c2-43e0-9dba-59c474b1a7bb")
+	)
+	(fp_line
+		(start 1.33604 6.1214)
+		(end 2.68965 6.1214)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9e23d869-0b2a-40f6-b181-5ffd11ffcd12")
+	)
+	(fp_line
+		(start 2.68965 -6.1214)
+		(end 1.80615 -6.1214)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7bea37a2-ac13-413a-9658-dc4619e1202d")
+	)
+	(fp_line
+		(start 6.1214 -1.80615)
+		(end 6.1214 -2.68965)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "889d2120-a928-4fec-9396-ed43c99cee0a")
+	)
+	(fp_line
+		(start 6.1214 2.68965)
+		(end 6.1214 1.80615)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "55c9c2e9-73b1-423a-8ebf-336bb1d07149")
+	)
+	(fp_line
+		(start -6.2484 -6.2484)
+		(end -6.2484 7.2517)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "da3d08b6-b23b-45c1-8ab0-9c3bd5f9c937")
+	)
+	(fp_line
+		(start -6.2484 7.2517)
+		(end 6.2484 7.2517)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "31b9095e-6501-402d-a181-cf9a484f9963")
+	)
+	(fp_line
+		(start 6.2484 -6.2484)
+		(end -6.2484 -6.2484)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a747b5ed-6aa1-4ad7-a7e0-495542d2fbbd")
+	)
+	(fp_line
+		(start 6.2484 7.2517)
+		(end 6.2484 -6.2484)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2e0ab994-68ca-444c-8ac4-03613fda8812")
+	)
+	(fp_line
+		(start -5.9944 -5.9944)
+		(end -5.9944 5.9944)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "084f4956-ce3e-40e6-ba89-67b9352f53ca")
+	)
+	(fp_line
+		(start -5.9944 5.9944)
+		(end 5.9944 5.9944)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e0c8be71-6f76-4623-b2da-b2dca37d8f0e")
+	)
+	(fp_line
+		(start 5.9944 -5.9944)
+		(end -5.9944 -5.9944)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "333e85fd-9d86-4ed4-84f0-e4c28a0b5565")
+	)
+	(fp_line
+		(start 5.9944 5.9944)
+		(end 5.9944 -5.9944)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1d78da1a-5d33-4e59-b14d-cffbaaa7506a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "8329611c-6f39-436a-8112-f324462115d5")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0 5.9944)
+		(size 2.0066 2.0066)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a8a3d982-65f6-4369-89ad-327bb714e881")
+	)
+	(pad "2" smd rect
+		(at -4.4958 -4.4958)
+		(size 2.9972 2.9972)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d5bc1439-4ed1-495b-ba94-c6f812ef6de4")
+	)
+	(pad "2" smd rect
+		(at -4.4958 0)
+		(size 2.9972 2.9972)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "88b43e8c-de2f-4344-93d6-996e797c848d")
+	)
+	(pad "2" smd rect
+		(at -4.4958 4.4958)
+		(size 2.9972 2.9972)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b9ac42fd-683d-47f2-81fb-b8d4b8be3615")
+	)
+	(pad "2" smd rect
+		(at 0 -4.4958)
+		(size 2.9972 2.9972)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "7ef6a77d-5800-4df4-9554-45ca461b3b1c")
+	)
+	(pad "2" smd rect
+		(at 0 0)
+		(size 2.9972 2.9972)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e5637206-a61a-4905-9c4f-9665695cb537")
+	)
+	(pad "2" smd rect
+		(at 4.4958 -4.4958)
+		(size 2.9972 2.9972)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "97a13998-d66d-4f94-abcf-4a326225b679")
+	)
+	(pad "2" smd rect
+		(at 4.4958 0)
+		(size 2.9972 2.9972)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2e61c215-4583-4e59-a935-71644d50a725")
+	)
+	(pad "2" smd rect
+		(at 4.4958 4.4958)
+		(size 2.9972 2.9972)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c7d55db2-db40-4aad-b691-4e6a7f83a580")
+	)
+	(zone
+		(layers "F.Cu" "B.Cu" "In1.Cu" "In2.Cu")
+		(uuid "7d029c91-81d7-4857-b852-41a416952597")
+		(hatch full 0.508)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.01)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.508)
+			(thermal_bridge_width 0.508)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy -1 7.5) (xy -2 7.5) (xy -2 4.5) (xy 2 4.5) (xy 2 7.5) (xy 1 7.5) (xy 1 5) (xy -1 5)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "../../3dmodels/RF_Nova/DSGP.1575.12.4.A.02.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

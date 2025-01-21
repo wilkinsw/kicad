@@ -833,7 +833,7 @@
 		(remove_unused_layers no)
 		(uuid "53a40865-4385-4b3b-96d2-ec204baec9ac")
 	)
-	(model "/git/hardware/kicad/3dmodels/Audio_Nova.3dshapes/CP-32-4_ADI.step"
+	(model "../../3dmodels/Audio_Nova.3dshapes/CP-32-4_ADI.step"
 		(offset
 			(xyz 0 0 0)
 		)
