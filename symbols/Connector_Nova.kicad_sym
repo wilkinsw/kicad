@@ -1,7 +1,7 @@
 (kicad_symbol_lib
-	(version 20231120)
+	(version 20251024)
 	(generator "kicad_symbol_editor")
-	(generator_version "8.0")
+	(generator_version "10.0")
 	(symbol "Audio Jack"
 		(pin_names
 			(offset 0)
@@ -9,8 +9,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "J"
 			(at -6.858 3.556 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20,6 +24,8 @@
 		)
 		(property "Value" "SJ2-35853A-SMT-TR"
 			(at -10.1604 -12.7005 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29,75 +35,91 @@
 		)
 		(property "Footprint" "Connector_Nova:CUI_SJ2-35853A-SMT-TR"
 			(at 1.778 -31.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.cuidevices.com/product/resource/sj2-3585x-smt.pdf"
 			(at 0.508 -38.608 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "AUDIO JACK, 3.5 MM, RT, 3 CONDUC"
 			(at 1.524 -24.384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "CUI Devices"
 			(at 0 -27.432 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Product Number" "SJ2-35853A-SMT-TR"
 			(at 0 -21.082 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Purchase Link" "https://www.digikey.com/short/d2vtmhn8"
 			(at 0 -35.052 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Type" "SMD"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "ki_keywords" "audio jack connector"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "Audio Jack_0_0"
@@ -163,7 +185,7 @@
 			)
 			(polyline
 				(pts
-					(xy 5.08 -7.62) (xy -6.35 -7.62)
+					(xy 5.08 2.54) (xy -1.27 2.54)
 				)
 				(stroke
 					(width 0.1524)
@@ -187,7 +209,7 @@
 			)
 			(polyline
 				(pts
-					(xy 5.08 2.54) (xy -1.27 2.54)
+					(xy 5.08 -7.62) (xy -6.35 -7.62)
 				)
 				(stroke
 					(width 0.1524)
@@ -265,15 +287,22 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "CLIK-Mate 10"
 		(pin_names
-			(offset 1.016) hide)
+			(offset 1.016)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "J"
 			(at -7.62 10.922 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -283,6 +312,8 @@
 		)
 		(property "Value" "2132271010"
 			(at -4.572 10.922 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -292,75 +323,91 @@
 		)
 		(property "Footprint" "Connector_Nova:MOLEX_2132271010"
 			(at 0 -26.416 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/2132271010"
 			(at 0 -32.258 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "CLIK-MATE1.5 DRVT SMT AU0.1 ETP"
 			(at 0 -22.606 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Molex"
 			(at 0 -19.812 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Purchase Link" "https://www.digikey.com/short/zv7d8zjn"
 			(at 0.508 -28.956 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Product Number" "2132271010"
 			(at 0 -16.764 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Type" "SMD"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "ki_keywords" "connector"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "CLIK-Mate 10_0_0"
@@ -375,24 +422,6 @@
 					)
 				)
 				(number "1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 11.43 -2.54 180)
-				(length 5.08)
-				(name "10"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "10"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -544,6 +573,24 @@
 					)
 				)
 			)
+			(pin passive line
+				(at 11.43 -2.54 180)
+				(length 5.08)
+				(name "10"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
 		)
 		(symbol "CLIK-Mate 10_1_0"
 			(rectangle
@@ -558,57 +605,9 @@
 				)
 			)
 			(arc
-				(start -5.715 -1.905)
-				(mid -6.3472 -2.54)
-				(end -5.715 -3.175)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start -5.715 0.635)
-				(mid -6.3472 0)
-				(end -5.715 -0.635)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start -5.715 3.175)
-				(mid -6.3472 2.54)
-				(end -5.715 1.905)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start -5.715 5.715)
-				(mid -6.3472 5.08)
-				(end -5.715 4.445)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start -5.715 8.255)
+				(start -5.715 6.985)
 				(mid -6.3472 7.62)
-				(end -5.715 6.985)
+				(end -5.715 8.255)
 				(stroke
 					(width 0)
 					(type default)
@@ -618,9 +617,9 @@
 				)
 			)
 			(arc
-				(start 5.715 -3.175)
-				(mid 6.3472 -2.54)
-				(end 5.715 -1.905)
+				(start -5.715 4.445)
+				(mid -6.3472 5.08)
+				(end -5.715 5.715)
 				(stroke
 					(width 0)
 					(type default)
@@ -630,9 +629,9 @@
 				)
 			)
 			(arc
-				(start 5.715 -0.635)
-				(mid 6.3472 0)
-				(end 5.715 0.635)
+				(start -5.715 1.905)
+				(mid -6.3472 2.54)
+				(end -5.715 3.175)
 				(stroke
 					(width 0)
 					(type default)
@@ -642,9 +641,9 @@
 				)
 			)
 			(arc
-				(start 5.715 1.905)
-				(mid 6.3472 2.54)
-				(end 5.715 3.175)
+				(start -5.715 -0.635)
+				(mid -6.3472 0)
+				(end -5.715 0.635)
 				(stroke
 					(width 0)
 					(type default)
@@ -654,9 +653,9 @@
 				)
 			)
 			(arc
-				(start 5.715 4.445)
-				(mid 6.3472 5.08)
-				(end 5.715 5.715)
+				(start -5.715 -3.175)
+				(mid -6.3472 -2.54)
+				(end -5.715 -1.905)
 				(stroke
 					(width 0)
 					(type default)
@@ -666,9 +665,57 @@
 				)
 			)
 			(arc
-				(start 5.715 6.985)
-				(mid 6.3472 7.62)
-				(end 5.715 8.255)
+				(start 5.715 8.255)
+				(mid 6.347 7.62)
+				(end 5.715 6.985)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 5.715 5.715)
+				(mid 6.347 5.08)
+				(end 5.715 4.445)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 5.715 3.175)
+				(mid 6.347 2.54)
+				(end 5.715 1.905)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 5.715 0.635)
+				(mid 6.347 0)
+				(end 5.715 -0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 5.715 -1.905)
+				(mid 6.347 -2.54)
+				(end 5.715 -3.175)
 				(stroke
 					(width 0)
 					(type default)
@@ -696,6 +743,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "CLIK-Mate 2"
 		(pin_names
@@ -704,8 +752,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "J"
 			(at -2.032 8.636 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -715,6 +767,8 @@
 		)
 		(property "Value" "2132250230"
 			(at -7.112 -5.842 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -724,58 +778,70 @@
 		)
 		(property "Footprint" "Connector_Nova:MOLEX_2132250230"
 			(at 0.254 -20.066 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/2132250230?display=pdf"
 			(at 0.254 -22.098 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "SRVT 1.5 SMT AU0.38 ETP 2P NAT"
 			(at 0.254 -16.764 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Molex"
 			(at 0.254 -14.478 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Product Number" "2132250230"
 			(at 0.254 -11.176 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Purchase Link" "https://www.digikey.com/short/w58jv7b8"
 			(at 0 -25.654 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "CLIK-Mate 2_0_0"
@@ -831,9 +897,9 @@
 				)
 			)
 			(arc
-				(start 5.715 1.905)
-				(mid 6.3472 2.54)
-				(end 5.715 3.175)
+				(start 5.715 5.715)
+				(mid 6.347 5.08)
+				(end 5.715 4.445)
 				(stroke
 					(width 0)
 					(type default)
@@ -843,9 +909,9 @@
 				)
 			)
 			(arc
-				(start 5.715 4.445)
-				(mid 6.3472 5.08)
-				(end 5.715 5.715)
+				(start 5.715 3.175)
+				(mid 6.347 2.54)
+				(end 5.715 1.905)
 				(stroke
 					(width 0)
 					(type default)
@@ -873,15 +939,22 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "CLIK-Mate 20"
 		(pin_names
-			(offset 1.016) hide)
+			(offset 1.016)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "J"
 			(at -7.62 19.05 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -891,6 +964,8 @@
 		)
 		(property "Value" "2132272010"
 			(at -6.604 -17.526 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -900,58 +975,70 @@
 		)
 		(property "Footprint" "Connector_Nova:MOLEX_2132272010"
 			(at -0.254 -37.084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/2132272010?display=pdf"
 			(at 0.254 -39.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "DRVT 1.5 SMT AU0.1 ETP 20P NAT"
 			(at 0 -30.988 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Molex"
 			(at -0.254 -28.448 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Product Number" "2132272010"
 			(at -0.254 -33.782 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Purchase Link" "https://www.digikey.com/short/thpp2h2n"
 			(at 0.254 -42.164 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "CLIK-Mate 20_0_0"
@@ -977,6 +1064,150 @@
 					)
 				)
 				(number "1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 11.43 15.24 180)
+				(length 5.08)
+				(name "2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -11.43 12.7 0)
+				(length 5.08)
+				(name "3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 11.43 12.7 180)
+				(length 5.08)
+				(name "4"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -11.43 10.16 0)
+				(length 5.08)
+				(name "5"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 11.43 10.16 180)
+				(length 5.08)
+				(name "6"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -11.43 7.62 0)
+				(length 5.08)
+				(name "7"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 11.43 7.62 180)
+				(length 5.08)
+				(name "8"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -11.43 5.08 0)
+				(length 5.08)
+				(name "9"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "9"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -1165,24 +1396,6 @@
 				)
 			)
 			(pin passive line
-				(at 11.43 15.24 180)
-				(length 5.08)
-				(name "2"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
 				(at 11.43 -7.62 180)
 				(length 5.08)
 				(name "20"
@@ -1200,246 +1413,12 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -11.43 12.7 0)
-				(length 5.08)
-				(name "3"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 11.43 12.7 180)
-				(length 5.08)
-				(name "4"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -11.43 10.16 0)
-				(length 5.08)
-				(name "5"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 11.43 10.16 180)
-				(length 5.08)
-				(name "6"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -11.43 7.62 0)
-				(length 5.08)
-				(name "7"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 11.43 7.62 180)
-				(length 5.08)
-				(name "8"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -11.43 5.08 0)
-				(length 5.08)
-				(name "9"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "9"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
 		)
 		(symbol "CLIK-Mate 20_1_0"
 			(arc
-				(start -5.715 -6.985)
-				(mid -6.3472 -7.62)
-				(end -5.715 -8.255)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start -5.715 -4.445)
-				(mid -6.3472 -5.08)
-				(end -5.715 -5.715)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start -5.715 -1.905)
-				(mid -6.3472 -2.54)
-				(end -5.715 -3.175)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start -5.715 0.635)
-				(mid -6.3472 0)
-				(end -5.715 -0.635)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start -5.715 3.175)
-				(mid -6.3472 2.54)
-				(end -5.715 1.905)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start -5.715 5.715)
-				(mid -6.3472 5.08)
-				(end -5.715 4.445)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start -5.715 8.255)
-				(mid -6.3472 7.62)
-				(end -5.715 6.985)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start -5.715 10.795)
-				(mid -6.3472 10.16)
-				(end -5.715 9.525)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start -5.715 13.335)
-				(mid -6.3472 12.7)
-				(end -5.715 12.065)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start -5.715 15.875)
+				(start -5.715 14.605)
 				(mid -6.3472 15.24)
-				(end -5.715 14.605)
+				(end -5.715 15.875)
 				(stroke
 					(width 0)
 					(type default)
@@ -1449,9 +1428,9 @@
 				)
 			)
 			(arc
-				(start 5.715 -8.255)
-				(mid 6.3472 -7.62)
-				(end 5.715 -6.985)
+				(start -5.715 12.065)
+				(mid -6.3472 12.7)
+				(end -5.715 13.335)
 				(stroke
 					(width 0)
 					(type default)
@@ -1461,9 +1440,9 @@
 				)
 			)
 			(arc
-				(start 5.715 -5.715)
-				(mid 6.3472 -5.08)
-				(end 5.715 -4.445)
+				(start -5.715 9.525)
+				(mid -6.3472 10.16)
+				(end -5.715 10.795)
 				(stroke
 					(width 0)
 					(type default)
@@ -1473,9 +1452,9 @@
 				)
 			)
 			(arc
-				(start 5.715 -3.175)
-				(mid 6.3472 -2.54)
-				(end 5.715 -1.905)
+				(start -5.715 6.985)
+				(mid -6.3472 7.62)
+				(end -5.715 8.255)
 				(stroke
 					(width 0)
 					(type default)
@@ -1485,9 +1464,9 @@
 				)
 			)
 			(arc
-				(start 5.715 -0.635)
-				(mid 6.3472 0)
-				(end 5.715 0.635)
+				(start -5.715 4.445)
+				(mid -6.3472 5.08)
+				(end -5.715 5.715)
 				(stroke
 					(width 0)
 					(type default)
@@ -1497,9 +1476,9 @@
 				)
 			)
 			(arc
-				(start 5.715 1.905)
-				(mid 6.3472 2.54)
-				(end 5.715 3.175)
+				(start -5.715 1.905)
+				(mid -6.3472 2.54)
+				(end -5.715 3.175)
 				(stroke
 					(width 0)
 					(type default)
@@ -1509,9 +1488,9 @@
 				)
 			)
 			(arc
-				(start 5.715 4.445)
-				(mid 6.3472 5.08)
-				(end 5.715 5.715)
+				(start -5.715 -0.635)
+				(mid -6.3472 0)
+				(end -5.715 0.635)
 				(stroke
 					(width 0)
 					(type default)
@@ -1521,9 +1500,9 @@
 				)
 			)
 			(arc
-				(start 5.715 6.985)
-				(mid 6.3472 7.62)
-				(end 5.715 8.255)
+				(start -5.715 -3.175)
+				(mid -6.3472 -2.54)
+				(end -5.715 -1.905)
 				(stroke
 					(width 0)
 					(type default)
@@ -1533,9 +1512,9 @@
 				)
 			)
 			(arc
-				(start 5.715 9.525)
-				(mid 6.3472 10.16)
-				(end 5.715 10.795)
+				(start -5.715 -5.715)
+				(mid -6.3472 -5.08)
+				(end -5.715 -4.445)
 				(stroke
 					(width 0)
 					(type default)
@@ -1545,9 +1524,9 @@
 				)
 			)
 			(arc
-				(start 5.715 12.065)
-				(mid 6.3472 12.7)
-				(end 5.715 13.335)
+				(start -5.715 -8.255)
+				(mid -6.3472 -7.62)
+				(end -5.715 -6.985)
 				(stroke
 					(width 0)
 					(type default)
@@ -1557,9 +1536,117 @@
 				)
 			)
 			(arc
-				(start 5.715 14.605)
-				(mid 6.3472 15.24)
-				(end 5.715 15.875)
+				(start 5.715 15.875)
+				(mid 6.347 15.24)
+				(end 5.715 14.605)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 5.715 13.335)
+				(mid 6.347 12.7)
+				(end 5.715 12.065)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 5.715 10.795)
+				(mid 6.347 10.16)
+				(end 5.715 9.525)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 5.715 8.255)
+				(mid 6.347 7.62)
+				(end 5.715 6.985)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 5.715 5.715)
+				(mid 6.347 5.08)
+				(end 5.715 4.445)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 5.715 3.175)
+				(mid 6.347 2.54)
+				(end 5.715 1.905)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 5.715 0.635)
+				(mid 6.347 0)
+				(end 5.715 -0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 5.715 -1.905)
+				(mid 6.347 -2.54)
+				(end 5.715 -3.175)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 5.715 -4.445)
+				(mid 6.347 -5.08)
+				(end 5.715 -5.715)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 5.715 -6.985)
+				(mid 6.347 -7.62)
+				(end 5.715 -8.255)
 				(stroke
 					(width 0)
 					(type default)
@@ -1587,15 +1674,22 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "CLIK-Mate 3"
 		(pin_names
-			(offset 1.016) hide)
+			(offset 1.016)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "J"
 			(at -7.62 8.89 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1605,6 +1699,8 @@
 		)
 		(property "Value" "2132250370"
 			(at -7.62 -12.7 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1614,67 +1710,81 @@
 		)
 		(property "Footprint" "Connector_Nova:MOLEX_2132250370"
 			(at 0.254 -26.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/2132250370?display=pdf"
 			(at 0 -28.702 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "SRVT 1.5 SMT AU0.76 ETP 3P NAT"
 			(at -0.254 -23.622 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Molex"
 			(at -0.254 -19.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Product Number" "2132250370"
 			(at 0 -20.828 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Purchase Link" "https://www.digikey.com/short/3f0qpz0t"
 			(at 0 -31.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "ki_keywords" "connector"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "CLIK-Mate 3_0_0"
@@ -1735,9 +1845,9 @@
 		)
 		(symbol "CLIK-Mate 3_1_0"
 			(arc
-				(start 5.715 -5.715)
-				(mid 6.3472 -5.08)
-				(end 5.715 -4.445)
+				(start 5.715 5.715)
+				(mid 6.347 5.08)
+				(end 5.715 4.445)
 				(stroke
 					(width 0)
 					(type default)
@@ -1747,9 +1857,9 @@
 				)
 			)
 			(arc
-				(start 5.715 -0.635)
-				(mid 6.3472 0)
-				(end 5.715 0.635)
+				(start 5.715 3.175)
+				(mid 6.347 2.54)
+				(end 5.715 1.905)
 				(stroke
 					(width 0)
 					(type default)
@@ -1759,9 +1869,9 @@
 				)
 			)
 			(arc
-				(start 5.715 1.905)
-				(mid 6.3472 2.54)
-				(end 5.715 3.175)
+				(start 5.715 0.635)
+				(mid 6.347 0)
+				(end 5.715 -0.635)
 				(stroke
 					(width 0)
 					(type default)
@@ -1771,9 +1881,9 @@
 				)
 			)
 			(arc
-				(start 5.715 4.445)
-				(mid 6.3472 5.08)
-				(end 5.715 5.715)
+				(start 5.715 -4.445)
+				(mid 6.347 -5.08)
+				(end 5.715 -5.715)
 				(stroke
 					(width 0)
 					(type default)
@@ -1816,14 +1926,21 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "CLIK-Mate 3 Plug"
-		(pin_names hide)
+		(pin_names
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "P"
 			(at 2.54 8.89 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1832,6 +1949,8 @@
 		)
 		(property "Value" "5025780300"
 			(at 1.524 -10.414 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1840,65 +1959,79 @@
 		)
 		(property "Footprint" ""
 			(at -1.27 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/5025780300?display=pdf"
 			(at 0.254 -26.924 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "CONN PLUG HSG 3POS 1.50MM"
 			(at -0.254 -24.638 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Molex"
 			(at -0.254 -19.304 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Product Number" "5025780300"
 			(at -0.254 -22.098 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Purchase Link" "https://www.digikey.com/short/fw9cr0nw"
 			(at 0 -29.718 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "ki_keywords" "plug"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "CLIK-Mate 3 Plug_0_0"
@@ -1959,33 +2092,33 @@
 		)
 		(symbol "CLIK-Mate 3 Plug_1_0"
 			(arc
-				(start -5.715 0.635)
-				(mid -6.347 0)
-				(end -5.715 -0.635)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start -5.715 3.175)
-				(mid -6.347 2.54)
-				(end -5.715 1.905)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start -5.715 5.715)
+				(start -5.715 4.445)
 				(mid -6.347 5.08)
-				(end -5.715 4.445)
+				(end -5.715 5.715)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -5.715 1.905)
+				(mid -6.347 2.54)
+				(end -5.715 3.175)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -5.715 -0.635)
+				(mid -6.347 0)
+				(end -5.715 0.635)
 				(stroke
 					(width 0)
 					(type default)
@@ -2010,15 +2143,22 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "CLIK-Mate 4"
 		(pin_names
-			(offset 1.016) hide)
+			(offset 1.016)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "J"
 			(at -7.62 11.43 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2028,6 +2168,8 @@
 		)
 		(property "Value" "2132250410"
 			(at -7.112 -5.588 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2037,76 +2179,92 @@
 		)
 		(property "Footprint" "Connector_Nova:MOLEX_2132250410"
 			(at 0.254 -23.368 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/2132250410?display=pdf"
 			(at 0 -25.654 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "CONN RECPT VERT SMC 4 POS"
 			(at 0 -19.812 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Molex"
 			(at 0 -17.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Product Number" "2132250410"
 			(at 0 -14.732 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Purchase Link" "https://www.digikey.com/short/rz2zb575"
 			(at 0 -28.702 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Type" "SMD"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "ki_keywords" "connector"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "CLIK-Mate 4_0_0"
@@ -2198,9 +2356,9 @@
 				)
 			)
 			(arc
-				(start 5.715 -0.635)
-				(mid 6.3472 0)
-				(end 5.715 0.635)
+				(start 5.715 8.255)
+				(mid 6.347 7.62)
+				(end 5.715 6.985)
 				(stroke
 					(width 0)
 					(type default)
@@ -2210,9 +2368,9 @@
 				)
 			)
 			(arc
-				(start 5.715 1.905)
-				(mid 6.3472 2.54)
-				(end 5.715 3.175)
+				(start 5.715 5.715)
+				(mid 6.347 5.08)
+				(end 5.715 4.445)
 				(stroke
 					(width 0)
 					(type default)
@@ -2222,9 +2380,9 @@
 				)
 			)
 			(arc
-				(start 5.715 4.445)
-				(mid 6.3472 5.08)
-				(end 5.715 5.715)
+				(start 5.715 3.175)
+				(mid 6.347 2.54)
+				(end 5.715 1.905)
 				(stroke
 					(width 0)
 					(type default)
@@ -2234,9 +2392,9 @@
 				)
 			)
 			(arc
-				(start 5.715 6.985)
-				(mid 6.3472 7.62)
-				(end 5.715 8.255)
+				(start 5.715 0.635)
+				(mid 6.347 0)
+				(end 5.715 -0.635)
 				(stroke
 					(width 0)
 					(type default)
@@ -2264,15 +2422,22 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "CLIK-Mate 5"
 		(pin_names
-			(offset 1.016) hide)
+			(offset 1.016)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "J"
 			(at -7.62 11.43 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2282,6 +2447,8 @@
 		)
 		(property "Value" "2132250570"
 			(at -7.874 -6.858 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2291,76 +2458,92 @@
 		)
 		(property "Footprint" "Connector_Nova:MOLEX_2132250570"
 			(at 0 -25.908 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/2132250570?display=pdf"
 			(at 0 -27.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "SRVT 1.5 SMT AU0.76 ETP 5P NAT"
 			(at 0 -22.098 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Molex"
 			(at 0 -20.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Purchase Link" "https://www.digikey.com/short/0v44bbj8"
 			(at 0 -30.988 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Product Number" "2132250570"
 			(at 0 -16.764 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Type" "SMD"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "ki_keywords" "connector"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "CLIK-Mate 5_0_0"
@@ -2470,9 +2653,9 @@
 				)
 			)
 			(arc
-				(start 5.715 -3.175)
-				(mid 6.3472 -2.54)
-				(end 5.715 -1.905)
+				(start 5.715 8.255)
+				(mid 6.347 7.62)
+				(end 5.715 6.985)
 				(stroke
 					(width 0)
 					(type default)
@@ -2482,9 +2665,9 @@
 				)
 			)
 			(arc
-				(start 5.715 -0.635)
-				(mid 6.3472 0)
-				(end 5.715 0.635)
+				(start 5.715 5.715)
+				(mid 6.347 5.08)
+				(end 5.715 4.445)
 				(stroke
 					(width 0)
 					(type default)
@@ -2494,9 +2677,9 @@
 				)
 			)
 			(arc
-				(start 5.715 1.905)
-				(mid 6.3472 2.54)
-				(end 5.715 3.175)
+				(start 5.715 3.175)
+				(mid 6.347 2.54)
+				(end 5.715 1.905)
 				(stroke
 					(width 0)
 					(type default)
@@ -2506,9 +2689,9 @@
 				)
 			)
 			(arc
-				(start 5.715 4.445)
-				(mid 6.3472 5.08)
-				(end 5.715 5.715)
+				(start 5.715 0.635)
+				(mid 6.347 0)
+				(end 5.715 -0.635)
 				(stroke
 					(width 0)
 					(type default)
@@ -2518,9 +2701,9 @@
 				)
 			)
 			(arc
-				(start 5.715 6.985)
-				(mid 6.3472 7.62)
-				(end 5.715 8.255)
+				(start 5.715 -1.905)
+				(mid 6.347 -2.54)
+				(end 5.715 -3.175)
 				(stroke
 					(width 0)
 					(type default)
@@ -2548,15 +2731,22 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "CLIK-Mate 6"
 		(pin_names
-			(offset 1.016) hide)
+			(offset 1.016)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "J"
 			(at -7.62 13.97 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2566,6 +2756,8 @@
 		)
 		(property "Value" "2132250610"
 			(at -7.62 -15.24 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2575,87 +2767,105 @@
 		)
 		(property "Footprint" "Connector_Nova:MOLEX_2132250610"
 			(at 0.508 -26.416 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/2132250610?display=pdf"
 			(at 0.508 -28.702 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "CONN RECPT VERT SMC 6 POS"
 			(at 0 -22.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Package" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Product Number" "2132250610"
 			(at 0 -18.542 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Molex"
 			(at -0.254 -20.828 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Purchase Link" "https://www.digikey.com/short/mz389q05"
 			(at 0.508 -32.004 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Type" "SMD"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "ki_keywords" "connector"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "CLIK-Mate 6_0_0"
@@ -2770,9 +2980,9 @@
 		)
 		(symbol "CLIK-Mate 6_1_0"
 			(arc
-				(start 5.715 -8.255)
-				(mid 6.3472 -7.62)
-				(end 5.715 -6.985)
+				(start 5.715 10.795)
+				(mid 6.347 10.16)
+				(end 5.715 9.525)
 				(stroke
 					(width 0)
 					(type default)
@@ -2782,9 +2992,9 @@
 				)
 			)
 			(arc
-				(start 5.715 -3.175)
-				(mid 6.3472 -2.54)
-				(end 5.715 -1.905)
+				(start 5.715 8.255)
+				(mid 6.347 7.62)
+				(end 5.715 6.985)
 				(stroke
 					(width 0)
 					(type default)
@@ -2794,9 +3004,9 @@
 				)
 			)
 			(arc
-				(start 5.715 -0.635)
-				(mid 6.3472 0)
-				(end 5.715 0.635)
+				(start 5.715 5.715)
+				(mid 6.347 5.08)
+				(end 5.715 4.445)
 				(stroke
 					(width 0)
 					(type default)
@@ -2806,9 +3016,9 @@
 				)
 			)
 			(arc
-				(start 5.715 1.905)
-				(mid 6.3472 2.54)
-				(end 5.715 3.175)
+				(start 5.715 3.175)
+				(mid 6.347 2.54)
+				(end 5.715 1.905)
 				(stroke
 					(width 0)
 					(type default)
@@ -2818,9 +3028,9 @@
 				)
 			)
 			(arc
-				(start 5.715 4.445)
-				(mid 6.3472 5.08)
-				(end 5.715 5.715)
+				(start 5.715 0.635)
+				(mid 6.347 0)
+				(end 5.715 -0.635)
 				(stroke
 					(width 0)
 					(type default)
@@ -2830,9 +3040,9 @@
 				)
 			)
 			(arc
-				(start 5.715 6.985)
-				(mid 6.3472 7.62)
-				(end 5.715 8.255)
+				(start 5.715 -1.905)
+				(mid 6.347 -2.54)
+				(end 5.715 -3.175)
 				(stroke
 					(width 0)
 					(type default)
@@ -2842,9 +3052,9 @@
 				)
 			)
 			(arc
-				(start 5.715 9.525)
-				(mid 6.3472 10.16)
-				(end 5.715 10.795)
+				(start 5.715 -6.985)
+				(mid 6.347 -7.62)
+				(end 5.715 -8.255)
 				(stroke
 					(width 0)
 					(type default)
@@ -2873,7 +3083,8 @@
 			)
 			(pin passive line
 				(at 11.43 -7.62 180)
-				(length 5.08) hide
+				(length 5.08)
+				(hide yes)
 				(name "SHIELD"
 					(effects
 						(font
@@ -2905,14 +3116,281 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
-	(symbol "D-SUB 9W4"
-		(pin_names hide)
+	(symbol "CONN_70551-XXXX_02_MOL"
+		(pin_names
+			(offset 1.016)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "J10"
+			(at 13.97 0.0001 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CONN_70551-XXXX_02_MOL"
+			(at 13.97 -2.5399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Nova:CONN_70551-XXXX_02_MOL"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" "https://tools.molex.com/pdm_docs/ps/PS-70400.pdf"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Connector Header Through Hole, Right Angle 2 position 0.100\" (2.54mm)"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR_NAME" "Molex Connector Corporation"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "705510001"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Purchase Link" "https://www.digikey.com/short/mh0z1m53"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "CONN_70551-XXXX_02_MOL_0_0"
+			(polyline
+				(pts
+					(xy 5.08 2.54) (xy 5.08 -5.08)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 -5.08) (xy 12.7 -5.08)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10.16 0) (xy 5.08 0)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10.16 0) (xy 8.89 0.8382)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10.16 0) (xy 8.89 -0.8382)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10.16 -2.54) (xy 5.08 -2.54)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10.16 -2.54) (xy 8.89 -1.7018)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10.16 -2.54) (xy 8.89 -3.3782)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 12.7 2.54) (xy 5.08 2.54)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 12.7 -5.08) (xy 12.7 2.54)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 5.08)
+				(name ""
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 0)
+				(length 5.08)
+				(name ""
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "D-SUB 9W4"
+		(pin_names
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "J"
 			(at 6.35 16.002 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2921,152 +3399,96 @@
 		)
 		(property "Value" "9W4"
 			(at -7.62 -23.622 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Connector_Nova:DSUB-9W4_Female_Vertical_P2.77x2.84mm_MountingHoles"
 			(at 8.382 -27.178 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://files.edac.net/edac/content/series/og/English/EDAC%20627C%20628C%20Series%20Power%20Combo%20D-sub%20Connectors%20English%20Ordering%20Guide.pdf"
 			(at 0.254 -32.512 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "CONN D-SUB RCPT 9POS VERT SLDR"
 			(at 0.254 -32.512 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Product Number" "628-9W4-224-4N1"
 			(at 0.254 -35.052 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "EDAC"
 			(at -12.7 -23.876 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Purchase Link" "https://www.digikey.com/short/rv8vq9jh"
 			(at 0.254 -32.512 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "ki_keywords" "D-SUB"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "D-SUB 9W4_0_1"
 			(polyline
 				(pts
-					(xy 0 -13.97) (xy 2.54 -13.97)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -10.16) (xy 2.54 -10.16)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -6.35) (xy 2.54 -6.35)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -2.54) (xy 4.318 -2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 0) (xy 1.27 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 2.54) (xy 4.318 2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 5.08) (xy 1.27 5.08)
+					(xy 0 11.43) (xy 2.54 11.43)
 				)
 				(stroke
 					(width 0)
@@ -3090,7 +3512,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 11.43) (xy 2.54 11.43)
+					(xy 0 5.08) (xy 1.27 5.08)
 				)
 				(stroke
 					(width 0)
@@ -3100,9 +3522,70 @@
 					(type none)
 				)
 			)
-			(circle
-				(center 2.032 0)
-				(radius 0.762)
+			(polyline
+				(pts
+					(xy 0 2.54) (xy 4.318 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0) (xy 1.27 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -2.54) (xy 4.318 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -6.35) (xy 2.54 -6.35)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -10.16) (xy 2.54 -10.16)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -13.97) (xy 2.54 -13.97)
+				)
 				(stroke
 					(width 0)
 					(type default)
@@ -3123,8 +3606,8 @@
 				)
 			)
 			(circle
-				(center 3.81 -13.97)
-				(radius 1.27)
+				(center 2.032 0)
+				(radius 0.762)
 				(stroke
 					(width 0)
 					(type default)
@@ -3134,7 +3617,7 @@
 				)
 			)
 			(circle
-				(center 3.81 -10.16)
+				(center 3.81 11.43)
 				(radius 1.27)
 				(stroke
 					(width 0)
@@ -3156,7 +3639,7 @@
 				)
 			)
 			(circle
-				(center 3.81 11.43)
+				(center 3.81 -10.16)
 				(radius 1.27)
 				(stroke
 					(width 0)
@@ -3167,7 +3650,18 @@
 				)
 			)
 			(circle
-				(center 5.08 -2.54)
+				(center 3.81 -13.97)
+				(radius 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 5.08 7.62)
 				(radius 0.762)
 				(stroke
 					(width 0)
@@ -3189,7 +3683,7 @@
 				)
 			)
 			(circle
-				(center 5.08 7.62)
+				(center 5.08 -2.54)
 				(radius 0.762)
 				(stroke
 					(width 0)
@@ -3394,13 +3888,18 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Hirose 10"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "J"
 			(at -5.588 11.684 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3409,6 +3908,8 @@
 		)
 		(property "Value" "DF13EA-10DP-1.25V(52)"
 			(at 0 -13.462 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3417,42 +3918,52 @@
 		)
 		(property "Footprint" "Connector_Nova:Hirose_DF13EA-10DP-1.25V"
 			(at 0.762 -27.432 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.hirose.com/en/product/p/CL0536-0570-0-52"
 			(at 0.254 -30.734 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "CONN HEADER SMD 10POS 1.25MM"
 			(at 0.762 -23.876 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Hirose Electric Co Ltd"
 			(at 0.762 -20.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Product Number" "DF13EA-10DP-1.25V(52)"
 			(at 0.762 -17.526 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3461,29 +3972,35 @@
 		)
 		(property "Purchase Link" "https://www.digikey.com/short/t07h2jdw"
 			(at 0.254 -34.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Type" "SMD"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "ki_keywords" "connector"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "Hirose 10_1_1"
@@ -3517,26 +4034,9 @@
 				)
 			)
 			(pin no_connect line
-				(at 10.16 -3.81 180)
-				(length 2.54) hide
-				(name "NC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "10"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin no_connect line
 				(at 10.16 6.35 180)
-				(length 2.54) hide
+				(length 2.54)
+				(hide yes)
 				(name "NC"
 					(effects
 						(font
@@ -3572,7 +4072,8 @@
 			)
 			(pin no_connect line
 				(at 10.16 3.81 180)
-				(length 2.54) hide
+				(length 2.54)
+				(hide yes)
 				(name "NC"
 					(effects
 						(font
@@ -3590,7 +4091,8 @@
 			)
 			(pin no_connect line
 				(at -10.16 1.27 0)
-				(length 2.54) hide
+				(length 2.54)
+				(hide yes)
 				(name "NC"
 					(effects
 						(font
@@ -3608,7 +4110,8 @@
 			)
 			(pin no_connect line
 				(at 10.16 1.27 180)
-				(length 2.54) hide
+				(length 2.54)
+				(hide yes)
 				(name "NC"
 					(effects
 						(font
@@ -3644,7 +4147,8 @@
 			)
 			(pin no_connect line
 				(at 10.16 -1.27 180)
-				(length 2.54) hide
+				(length 2.54)
+				(hide yes)
 				(name "NC"
 					(effects
 						(font
@@ -3678,6 +4182,25 @@
 					)
 				)
 			)
+			(pin no_connect line
+				(at 10.16 -3.81 180)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin passive line
 				(at -10.16 -8.89 0)
 				(length 2.54)
@@ -3697,6 +4220,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "I-PEX 20525-030E-02"
 		(pin_names
@@ -3705,8 +4229,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "J"
 			(at 20.574 41.402 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3716,6 +4244,8 @@
 		)
 		(property "Value" "20525-030E-02"
 			(at -12.7 43.18 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3725,76 +4255,92 @@
 		)
 		(property "Footprint" "Connector_Nova:I-PEX_20525-030E-02C"
 			(at -4.318 -54.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.i-pex.com/product/cabline-ca"
 			(at -6.35 -56.896 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "30 Position Connector Surface Mount, Right Angle"
 			(at -6.096 -51.054 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "I-PEX"
 			(at -6.096 -49.022 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Product Number" "20525-030E-02"
 			(at -5.588 -46.228 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Purchase Link" "https://www.digikey.com/short/2jdp1jtp"
 			(at -6.096 -60.198 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Type" "SMD"
 			(at -5.588 -43.434 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "ki_keywords" "connector coaxial"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "I-PEX 20525-030E-02_0_0"
@@ -3822,6 +4368,150 @@
 					)
 				)
 				(number "1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 -33.02 0)
+				(length 5.08)
+				(name ""
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 -30.48 0)
+				(length 5.08)
+				(name ""
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 -27.94 0)
+				(length 5.08)
+				(name ""
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 -25.4 0)
+				(length 5.08)
+				(name ""
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 -22.86 0)
+				(length 5.08)
+				(name ""
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 -20.32 0)
+				(length 5.08)
+				(name ""
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 -17.78 0)
+				(length 5.08)
+				(name ""
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 -15.24 0)
+				(length 5.08)
+				(name ""
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "9"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -4010,24 +4700,6 @@
 				)
 			)
 			(pin passive line
-				(at 5.08 -33.02 0)
-				(length 5.08)
-				(name ""
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
 				(at 5.08 12.7 0)
 				(length 5.08)
 				(name ""
@@ -4208,24 +4880,6 @@
 				)
 			)
 			(pin passive line
-				(at 5.08 -30.48 0)
-				(length 5.08)
-				(name ""
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
 				(at 5.08 38.1 0)
 				(length 5.08)
 				(name ""
@@ -4236,114 +4890,6 @@
 					)
 				)
 				(number "30"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 5.08 -27.94 0)
-				(length 5.08)
-				(name ""
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 5.08 -25.4 0)
-				(length 5.08)
-				(name ""
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 5.08 -22.86 0)
-				(length 5.08)
-				(name ""
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 5.08 -20.32 0)
-				(length 5.08)
-				(name ""
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 5.08 -17.78 0)
-				(length 5.08)
-				(name ""
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 5.08 -15.24 0)
-				(length 5.08)
-				(name ""
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "9"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -4370,15 +4916,22 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "JST B4B-EH-A"
 		(pin_names
-			(offset 1.016) hide)
+			(offset 1.016)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "J"
 			(at -2.54 8.382 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4388,6 +4941,8 @@
 		)
 		(property "Value" "B4B-EH-A"
 			(at -2.54 -7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4397,83 +4952,86 @@
 		)
 		(property "Footprint" "Connector_Nova:JST_B4B-EH-A"
 			(at 0 -21.844 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eEH.pdf"
 			(at -0.254 -23.368 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "CONN HEADER VERT 4POS 2.5MM"
 			(at 0 -18.288 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "JST"
 			(at -0.254 -13.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Product Number" "B4B-EH-A"
 			(at 0 -16.002 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Purchase Link" "https://www.digikey.com/short/mhw7m314"
 			(at 0.254 -25.908 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "ki_keywords" "connector"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "JST B4B-EH-A_0_0"
 			(rectangle
-				(start -3.175 -2.8575)
-				(end -1.5875 -2.2225)
-				(stroke
-					(width 0.1)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(rectangle
-				(start -3.175 -0.3175)
-				(end -1.5875 0.3175)
+				(start -3.175 4.7625)
+				(end -1.5875 5.3975)
 				(stroke
 					(width 0.1)
 					(type default)
@@ -4494,8 +5052,19 @@
 				)
 			)
 			(rectangle
-				(start -3.175 4.7625)
-				(end -1.5875 5.3975)
+				(start -3.175 -0.3175)
+				(end -1.5875 0.3175)
+				(stroke
+					(width 0.1)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start -3.175 -2.8575)
+				(end -1.5875 -2.2225)
 				(stroke
 					(width 0.1)
 					(type default)
@@ -4592,15 +5161,22 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "JST B4B-ZR"
 		(pin_names
-			(offset 1.016) hide)
+			(offset 1.016)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "J"
 			(at 2.794 7.366 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4609,6 +5185,8 @@
 		)
 		(property "Value" "B4B-ZR"
 			(at 0 -7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4617,109 +5195,118 @@
 		)
 		(property "Footprint" "Connector_JST:JST_ZH_B4B-ZR_1x04_P1.50mm_Vertical"
 			(at -0.254 -19.812 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eZH.pdf"
 			(at 0.254 -22.098 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "CONN HEADER VERT 4POS 1.5MM"
 			(at 0.254 -17.272 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "JST"
 			(at 0 -12.446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Product Number" "B4B-ZR"
 			(at -0.254 -14.732 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Purchase Link" "https://www.digikey.com/short/v20hv2jr"
 			(at 0 -24.892 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Package" ""
 			(at -1.27 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Type" "THT"
 			(at 0 -27.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "ki_keywords" "connector"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "ki_fp_filters" "Connector*:*_1x??_*"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "JST B4B-ZR_0_0"
 			(rectangle
-				(start -4.445 -4.1275)
-				(end -2.8575 -3.4925)
-				(stroke
-					(width 0.1)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(rectangle
-				(start -4.445 -1.5875)
-				(end -2.8575 -0.9525)
+				(start -4.445 3.4925)
+				(end -2.8575 4.1275)
 				(stroke
 					(width 0.1)
 					(type default)
@@ -4740,8 +5327,19 @@
 				)
 			)
 			(rectangle
-				(start -4.445 3.4925)
-				(end -2.8575 4.1275)
+				(start -4.445 -1.5875)
+				(end -2.8575 -0.9525)
+				(stroke
+					(width 0.1)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start -4.445 -4.1275)
+				(end -2.8575 -3.4925)
 				(stroke
 					(width 0.1)
 					(type default)
@@ -4838,14 +5436,21 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Lug_10_AWG"
-		(pin_names hide)
+		(pin_names
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "J"
 			(at 3.048 5.334 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4854,6 +5459,8 @@
 		)
 		(property "Value" "B12-PCB-NM-HEX"
 			(at 10.668 -3.556 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4862,56 +5469,68 @@
 		)
 		(property "Footprint" "Connector_Nova:B12-PCB-NM-HEX"
 			(at -0.254 -20.574 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://lugsdirect.com/PDF_Webprint/B12-PCB-NM-HEX (WEB).pdf"
 			(at -0.254 -25.146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "10 AWG, 20 AMP, Hex socket"
 			(at -0.254 -15.748 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Product Number" "B12-PCB-NM-HEX"
 			(at 0 -13.208 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "International Hydraulics, Inc."
 			(at -0.254 -22.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Purchase Link" "https://lugsdirect.com/B12-PCB-NO-MARKINGS-HEX-SCREW-(12-16-AWG)-PCB-WIRE-LUG.htm"
 			(at -0.254 -18.288 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "Lug_10_AWG_0_1"
@@ -4929,7 +5548,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 2.54) (xy -1.905 3.81)
+					(xy -0.508 -1.27) (xy -1.524 -0.508) (xy -1.524 2.54) (xy -0.508 1.778) (xy -0.508 -1.27)
 				)
 				(stroke
 					(width 0)
@@ -4941,7 +5560,7 @@
 			)
 			(polyline
 				(pts
-					(xy -0.508 -1.27) (xy -1.524 -0.508) (xy -1.524 2.54) (xy -0.508 1.778) (xy -0.508 -1.27)
+					(xy 0 2.54) (xy -1.905 3.81)
 				)
 				(stroke
 					(width 0)
@@ -5007,15 +5626,22 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "MATE-N-LOK 1x2"
 		(pin_names
-			(offset 1.016) hide)
+			(offset 1.016)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "J"
 			(at -2.5407 6.9865 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5025,6 +5651,8 @@
 		)
 		(property "Value" "2-1445057-2"
 			(at -6.858 -10.16 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5034,66 +5662,80 @@
 		)
 		(property "Footprint" "Connector_Nova:TE_2-1445057-2"
 			(at -0.508 -22.352 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.te.com/usa-en/product-2-1445057-2.datasheet.pdf"
 			(at 0.254 -26.924 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "CONN HEADER SMD R/A 2POS 3MM"
 			(at 0 -17.018 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "TE Connectivity AMP Connectors"
 			(at -0.254 -19.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Product Number" "2-1445057-2"
 			(at 0 -14.478 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Purchase Link" "https://www.digikey.com/short/f9w5tc27"
 			(at -0.254 -24.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "ki_keywords" "connector"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "MATE-N-LOK 1x2_0_1"
@@ -5179,14 +5821,21 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "MATE-N-LOK 1x3"
-		(pin_names hide)
+		(pin_names
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "J"
 			(at -4.318 10.414 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5195,6 +5844,8 @@
 		)
 		(property "Value" "2-1445091-3"
 			(at -7.874 1.524 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5203,74 +5854,90 @@
 		)
 		(property "Footprint" "Connector_Nova:TE_2-1445091-3"
 			(at -0.508 -20.828 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.te.com/usa-en/product-2-1445091-3.datasheet.pdf"
 			(at 0.508 -23.622 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "CONN HEADER SMD R/A 3POS 3MM"
 			(at 0 -17.526 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "TE Connectivity AMP Connectors"
 			(at -0.254 -14.478 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Product Number" "2-1445091-3"
 			(at 0 -11.938 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Purchase Link" "https://www.digikey.com/short/cn2brrpf"
 			(at 0.254 -27.178 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Type" "SMD"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "ki_keywords" "connector"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "MATE-N-LOK 1x3_0_1"
@@ -5374,14 +6041,21 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "MATE-N-LOK 1x4"
-		(pin_names hide)
+		(pin_names
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "J"
 			(at -4.318 10.414 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5390,6 +6064,8 @@
 		)
 		(property "Value" "2-1445091-4"
 			(at -6.35 -0.254 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5398,83 +6074,101 @@
 		)
 		(property "Footprint" "Connector_Nova:TE_2-1445091-4"
 			(at -0.508 -24.384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.te.com/usa-en/product-2-1445091-4.datasheet.pdf"
 			(at 0.508 -27.178 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "CONN HEADER SMD R/A 4POS 3MM"
 			(at 0 -21.082 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "TE Connectivity AMP Connectors"
 			(at -0.254 -18.034 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Product Number" "2-1445091-4"
 			(at 0.254 -15.494 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Purchase Link" "https://www.digikey.com/short/pcd8pjqq"
 			(at 0.254 -30.734 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Type" "SMD"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "ki_keywords" "connector"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "ki_fp_filters" "TE_2-1445???-4"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "MATE-N-LOK 1x4_0_1"
@@ -5579,7 +6273,8 @@
 			)
 			(pin no_connect line
 				(at 8.89 -5.08 180)
-				(length 2.54) hide
+				(length 2.54)
+				(hide yes)
 				(name "S"
 					(effects
 						(font
@@ -5596,14 +6291,21 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "MATE-N-LOK 1x4 Vertical"
-		(pin_names hide)
+		(pin_names
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "J"
 			(at -4.318 10.414 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5612,6 +6314,8 @@
 		)
 		(property "Value" "2-1445093-4"
 			(at -6.35 -0.254 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5620,83 +6324,101 @@
 		)
 		(property "Footprint" "Connector_Nova:TE_2-1445093-4"
 			(at -0.508 -24.384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.te.com/usa-en/product-2-1445093-4.datasheet.pdf"
 			(at 0.508 -27.178 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "CONN HEADER VERT 4POS 3MM"
 			(at 0 -21.082 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "TE Connectivity AMP Connectors"
 			(at -0.254 -18.034 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Product Number" "2-1445093-4"
 			(at 0.254 -15.494 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Purchase Link" "https://www.digikey.com/short/m91rjc72"
 			(at 0.254 -30.734 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Type" "THT"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "ki_keywords" "connector"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "ki_fp_filters" "TE_2-1445???-4"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "MATE-N-LOK 1x4 Vertical_0_1"
@@ -5800,6 +6522,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "MATE-N-LOK 2x2"
 		(pin_names
@@ -5808,8 +6531,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "J"
 			(at 3.556 12.192 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5819,96 +6546,116 @@
 		)
 		(property "Value" ""
 			(at -6.096 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Connector_Nova:TE_3-794630-4"
 			(at -0.254 -20.828 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0.254 -15.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "CONN HEADER R/A 4POS 3MM"
 			(at -0.254 -13.208 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "TE Connectivity"
 			(at 0 -11.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Package" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Product Number" ""
 			(at 0 -8.382 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Purchase Link" ""
 			(at 0 -17.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "ki_keywords" "connector"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "ki_fp_filters" "TE_3-7946??-4"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "MATE-N-LOK 2x2_0_1"
@@ -6011,6 +6758,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "MATE-N-LOK 2x2 Plug"
 		(pin_names
@@ -6019,8 +6767,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "P"
 			(at -3.556 10.922 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6030,6 +6782,8 @@
 		)
 		(property "Value" "794617-4"
 			(at -6.858 -5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6039,67 +6793,81 @@
 		)
 		(property "Footprint" ""
 			(at -0.254 -20.828 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.te.com/usa-en/product-3-794618-4.datasheet.pdf"
 			(at 0.254 -15.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "CONN RCPT HSG 4POS 3.00MM"
 			(at -0.254 -13.208 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "TE Connectivity"
 			(at 0 -11.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Product Number" "794617-4"
 			(at 0 -8.382 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Purchase Link" "https://www.digikey.com/short/n204w0vj"
 			(at 0 -17.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "ki_keywords" "connector"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "MATE-N-LOK 2x2 Plug_0_1"
@@ -6203,6 +6971,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "MATE-N-LOK 2x3"
 		(pin_names
@@ -6211,8 +6980,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "J"
 			(at 4.318 13.208 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6222,6 +6995,8 @@
 		)
 		(property "Value" ""
 			(at -7.366 -10.16 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6231,76 +7006,92 @@
 		)
 		(property "Footprint" ""
 			(at -0.254 -30.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 0.254 -24.892 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at -0.254 -22.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "TE Connectivity"
 			(at 0 -21.082 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Product Number" ""
 			(at 0.254 -18.034 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Purchase Link" ""
 			(at 0 -27.432 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "ki_keywords" "connector"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "ki_fp_filters" "TE_3-7946??-6"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "MATE-N-LOK 2x3_0_1"
@@ -6440,6 +7231,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "MATE-N-LOK 2x3 Plug"
 		(pin_names
@@ -6448,8 +7240,12 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board no)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "P"
 			(at -3.302 9.652 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6459,6 +7255,8 @@
 		)
 		(property "Value" "794617-6"
 			(at -3.556 -11.176 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6468,67 +7266,81 @@
 		)
 		(property "Footprint" ""
 			(at -0.254 -30.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.te.com/en/product-794617-6.datasheet.pdf"
 			(at 0.254 -24.892 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "CONN RCPT HSG 6POS 3.00MM"
 			(at -0.254 -22.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "TE Connectivity"
 			(at 0 -21.082 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Product Number" "794617-6"
 			(at 0.254 -18.034 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Purchase Link" "https://www.digikey.com/short/dh828tvv"
 			(at 0 -27.432 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "ki_keywords" "connector"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "MATE-N-LOK 2x3 Plug_0_1"
@@ -6668,6 +7480,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "MM8130-2600RA2"
 		(pin_names
@@ -6676,8 +7489,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "J"
 			(at -7.6393 5.6021 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6687,6 +7504,8 @@
 		)
 		(property "Value" "SWF"
 			(at -7.6303 -7.6303 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6696,57 +7515,69 @@
 		)
 		(property "Footprint" "Connector_Nova:MURATA_MM8130-2600RA2"
 			(at 0 -20.066 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/13/Microwave_Coaxial_Conn_Cat030E.pdf"
 			(at 0.762 -22.606 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "CONN SWF RCPT STR 50 OHM SMD"
 			(at -0.254 -16.256 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
 			(at -0.254 -10.668 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Product Number" "MM8130-2600RA2"
 			(at -0.254 -13.208 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Purchase Link" "https://www.digikey.com/short/718mn1h3"
 			(at -0.254 -25.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "MM8130-2600RA2_0_0"
@@ -6870,6 +7701,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Micro SIM"
 		(pin_names
@@ -6878,8 +7710,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "J"
 			(at -7.6207 5.5885 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6889,6 +7725,8 @@
 		)
 		(property "Value" "Micro SIM"
 			(at -0.762 5.588 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6898,66 +7736,80 @@
 		)
 		(property "Footprint" "Connector_Nova:GCT_SIM7100-6-1-15-00-A_REVC"
 			(at -1.27 -25.654 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 -30.734 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "MICRO SIM PUSH-PUSH, 6P, SMT, 1."
 			(at -0.508 -22.098 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "GCT"
 			(at -0.762 -15.748 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Product Number" "SIM7100-6-1-15-00-A"
 			(at 0.254 -18.796 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Purchase Link" "https://www.digikey.com/short/4nbwf3f7"
 			(at -0.254 -27.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "ki_keywords" "SIM"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "Micro SIM_0_0"
@@ -7119,15 +7971,22 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "MicroClasp 4"
 		(pin_names
-			(offset 1.016) hide)
+			(offset 1.016)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "J"
 			(at 0 5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7136,6 +7995,8 @@
 		)
 		(property "Value" "0559320410"
 			(at 0 -7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7144,139 +8005,115 @@
 		)
 		(property "Footprint" "Connector_Molex:Molex_MicroClasp_55932-0410_1x04_P2.00mm_Vertical"
 			(at -0.254 -19.812 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/559320410?display=pdf"
 			(at 0.254 -22.098 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "CONN HEADER VERT 4POS 2MM"
 			(at 0.254 -17.272 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Molex"
 			(at 0 -12.446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Product Number" "0559320410"
 			(at -0.254 -14.732 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Purchase Link" "https://www.digikey.com/short/341mv1bq"
 			(at 0 -24.892 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Package" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Type" "THT"
 			(at 0 -27.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "ki_keywords" "connector"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "ki_fp_filters" "Connector*:*_1x??_*"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "MicroClasp 4_1_1"
-			(rectangle
-				(start -1.27 -4.953)
-				(end 0 -5.207)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(rectangle
-				(start -1.27 -2.413)
-				(end 0 -2.667)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(rectangle
-				(start -1.27 0.127)
-				(end 0 -0.127)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(rectangle
-				(start -1.27 2.667)
-				(end 0 2.413)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(rectangle
 				(start -1.27 3.81)
 				(end 1.27 -6.35)
@@ -7288,6 +8125,50 @@
 					(type background)
 				)
 			)
+			(rectangle
+				(start -1.27 2.667)
+				(end 0 2.413)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 0.127)
+				(end 0 -0.127)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 -2.413)
+				(end 0 -2.667)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 -4.953)
+				(end 0 -5.207)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(pin passive line
 				(at -5.08 2.54 0)
 				(length 3.81)
@@ -7361,15 +8242,22 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Milli-Grid 2x10 SMD"
 		(pin_names
-			(offset 1.016) hide)
+			(offset 1.016)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "J"
 			(at 1.27 12.7 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7378,6 +8266,8 @@
 		)
 		(property "Value" "0878322014"
 			(at 1.27 -15.24 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7386,157 +8276,107 @@
 		)
 		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_2x10_P2.00mm_Vertical_SMD"
 			(at 0.508 -27.178 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/productspecificationpdf/878/87831/PS-87831-027-001.pdf?inline"
 			(at -0.508 -30.988 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "CONN HEADER SMD 20POS 2MM"
 			(at 0 -23.622 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Molex"
 			(at -0.254 -20.828 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Product Number" "0878322014"
 			(at 0 -18.034 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Purchase Link" "https://www.digikey.com/short/t8cwrz0t"
 			(at 0.508 -35.052 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "ki_keywords" "connector"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "ki_fp_filters" "Connector*:*_2x??_*"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "Milli-Grid 2x10 SMD_1_1"
 			(rectangle
-				(start -1.27 -12.573)
-				(end 0 -12.827)
+				(start -1.27 11.43)
+				(end 3.81 -13.97)
 				(stroke
-					(width 0.1524)
+					(width 0.254)
 					(type default)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 			(rectangle
-				(start -1.27 -10.033)
-				(end 0 -10.287)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(rectangle
-				(start -1.27 -7.493)
-				(end 0 -7.747)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(rectangle
-				(start -1.27 -4.953)
-				(end 0 -5.207)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(rectangle
-				(start -1.27 -2.413)
-				(end 0 -2.667)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(rectangle
-				(start -1.27 0.127)
-				(end 0 -0.127)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(rectangle
-				(start -1.27 2.667)
-				(end 0 2.413)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(rectangle
-				(start -1.27 5.207)
-				(end 0 4.953)
+				(start -1.27 10.287)
+				(end 0 10.033)
 				(stroke
 					(width 0.1524)
 					(type default)
@@ -7557,8 +8397,8 @@
 				)
 			)
 			(rectangle
-				(start -1.27 10.287)
-				(end 0 10.033)
+				(start -1.27 5.207)
+				(end 0 4.953)
 				(stroke
 					(width 0.1524)
 					(type default)
@@ -7568,19 +8408,8 @@
 				)
 			)
 			(rectangle
-				(start -1.27 11.43)
-				(end 3.81 -13.97)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(rectangle
-				(start 3.81 -12.573)
-				(end 2.54 -12.827)
+				(start -1.27 2.667)
+				(end 0 2.413)
 				(stroke
 					(width 0.1524)
 					(type default)
@@ -7590,8 +8419,8 @@
 				)
 			)
 			(rectangle
-				(start 3.81 -10.033)
-				(end 2.54 -10.287)
+				(start -1.27 0.127)
+				(end 0 -0.127)
 				(stroke
 					(width 0.1524)
 					(type default)
@@ -7601,8 +8430,8 @@
 				)
 			)
 			(rectangle
-				(start 3.81 -7.493)
-				(end 2.54 -7.747)
+				(start -1.27 -2.413)
+				(end 0 -2.667)
 				(stroke
 					(width 0.1524)
 					(type default)
@@ -7612,8 +8441,8 @@
 				)
 			)
 			(rectangle
-				(start 3.81 -4.953)
-				(end 2.54 -5.207)
+				(start -1.27 -4.953)
+				(end 0 -5.207)
 				(stroke
 					(width 0.1524)
 					(type default)
@@ -7623,8 +8452,8 @@
 				)
 			)
 			(rectangle
-				(start 3.81 -2.413)
-				(end 2.54 -2.667)
+				(start -1.27 -7.493)
+				(end 0 -7.747)
 				(stroke
 					(width 0.1524)
 					(type default)
@@ -7634,8 +8463,8 @@
 				)
 			)
 			(rectangle
-				(start 3.81 0.127)
-				(end 2.54 -0.127)
+				(start -1.27 -10.033)
+				(end 0 -10.287)
 				(stroke
 					(width 0.1524)
 					(type default)
@@ -7645,8 +8474,8 @@
 				)
 			)
 			(rectangle
-				(start 3.81 2.667)
-				(end 2.54 2.413)
+				(start -1.27 -12.573)
+				(end 0 -12.827)
 				(stroke
 					(width 0.1524)
 					(type default)
@@ -7656,8 +8485,8 @@
 				)
 			)
 			(rectangle
-				(start 3.81 5.207)
-				(end 2.54 4.953)
+				(start 3.81 10.287)
+				(end 2.54 10.033)
 				(stroke
 					(width 0.1524)
 					(type default)
@@ -7678,8 +8507,85 @@
 				)
 			)
 			(rectangle
-				(start 3.81 10.287)
-				(end 2.54 10.033)
+				(start 3.81 5.207)
+				(end 2.54 4.953)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 3.81 2.667)
+				(end 2.54 2.413)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 3.81 0.127)
+				(end 2.54 -0.127)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 3.81 -2.413)
+				(end 2.54 -2.667)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 3.81 -4.953)
+				(end 2.54 -5.207)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 3.81 -7.493)
+				(end 2.54 -7.747)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 3.81 -10.033)
+				(end 2.54 -10.287)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 3.81 -12.573)
+				(end 2.54 -12.827)
 				(stroke
 					(width 0.1524)
 					(type default)
@@ -7699,6 +8605,150 @@
 					)
 				)
 				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 10.16 180)
+				(length 3.81)
+				(name "Pin_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 7.62 0)
+				(length 3.81)
+				(name "Pin_3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 7.62 180)
+				(length 3.81)
+				(name "Pin_4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 5.08 0)
+				(length 3.81)
+				(name "Pin_5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 5.08 180)
+				(length 3.81)
+				(name "Pin_6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 2.54 0)
+				(length 3.81)
+				(name "Pin_7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 2.54 180)
+				(length 3.81)
+				(name "Pin_8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 3.81)
+				(name "Pin_9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -7887,24 +8937,6 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 10.16 180)
-				(length 3.81)
-				(name "Pin_2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
 				(at 7.62 -12.7 180)
 				(length 3.81)
 				(name "Pin_20"
@@ -7922,142 +8954,23 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -5.08 7.62 0)
-				(length 3.81)
-				(name "Pin_3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 7.62 7.62 180)
-				(length 3.81)
-				(name "Pin_4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -5.08 5.08 0)
-				(length 3.81)
-				(name "Pin_5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 7.62 5.08 180)
-				(length 3.81)
-				(name "Pin_6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -5.08 2.54 0)
-				(length 3.81)
-				(name "Pin_7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 7.62 2.54 180)
-				(length 3.81)
-				(name "Pin_8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -5.08 0 0)
-				(length 3.81)
-				(name "Pin_9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Milli-Grid 2x10 THT"
 		(pin_names
-			(offset 1.016) hide)
+			(offset 1.016)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "J"
 			(at 1.27 12.7 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8066,6 +8979,8 @@
 		)
 		(property "Value" "0878312020"
 			(at 1.27 -15.24 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8074,157 +8989,107 @@
 		)
 		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_2x10_P2.00mm_Vertical"
 			(at 0.508 -27.178 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.molex.com/pdm_docs/sd/878312020_sd.pdf"
 			(at -0.508 -30.988 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "CONN HEADER VERT 20POS 2MM"
 			(at 0 -23.622 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Molex"
 			(at -0.254 -20.828 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Product Number" "0878312020"
 			(at 0 -18.034 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Purchase Link" "https://www.digikey.com/short/wz4qnn2h"
 			(at 0.508 -35.052 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "ki_keywords" "connector"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "ki_fp_filters" "Connector*:*_2x??_*"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "Milli-Grid 2x10 THT_1_1"
 			(rectangle
-				(start -1.27 -12.573)
-				(end 0 -12.827)
+				(start -1.27 11.43)
+				(end 3.81 -13.97)
 				(stroke
-					(width 0.1524)
+					(width 0.254)
 					(type default)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 			(rectangle
-				(start -1.27 -10.033)
-				(end 0 -10.287)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(rectangle
-				(start -1.27 -7.493)
-				(end 0 -7.747)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(rectangle
-				(start -1.27 -4.953)
-				(end 0 -5.207)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(rectangle
-				(start -1.27 -2.413)
-				(end 0 -2.667)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(rectangle
-				(start -1.27 0.127)
-				(end 0 -0.127)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(rectangle
-				(start -1.27 2.667)
-				(end 0 2.413)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(rectangle
-				(start -1.27 5.207)
-				(end 0 4.953)
+				(start -1.27 10.287)
+				(end 0 10.033)
 				(stroke
 					(width 0.1524)
 					(type default)
@@ -8245,8 +9110,8 @@
 				)
 			)
 			(rectangle
-				(start -1.27 10.287)
-				(end 0 10.033)
+				(start -1.27 5.207)
+				(end 0 4.953)
 				(stroke
 					(width 0.1524)
 					(type default)
@@ -8256,19 +9121,8 @@
 				)
 			)
 			(rectangle
-				(start -1.27 11.43)
-				(end 3.81 -13.97)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(rectangle
-				(start 3.81 -12.573)
-				(end 2.54 -12.827)
+				(start -1.27 2.667)
+				(end 0 2.413)
 				(stroke
 					(width 0.1524)
 					(type default)
@@ -8278,8 +9132,8 @@
 				)
 			)
 			(rectangle
-				(start 3.81 -10.033)
-				(end 2.54 -10.287)
+				(start -1.27 0.127)
+				(end 0 -0.127)
 				(stroke
 					(width 0.1524)
 					(type default)
@@ -8289,8 +9143,8 @@
 				)
 			)
 			(rectangle
-				(start 3.81 -7.493)
-				(end 2.54 -7.747)
+				(start -1.27 -2.413)
+				(end 0 -2.667)
 				(stroke
 					(width 0.1524)
 					(type default)
@@ -8300,8 +9154,8 @@
 				)
 			)
 			(rectangle
-				(start 3.81 -4.953)
-				(end 2.54 -5.207)
+				(start -1.27 -4.953)
+				(end 0 -5.207)
 				(stroke
 					(width 0.1524)
 					(type default)
@@ -8311,8 +9165,8 @@
 				)
 			)
 			(rectangle
-				(start 3.81 -2.413)
-				(end 2.54 -2.667)
+				(start -1.27 -7.493)
+				(end 0 -7.747)
 				(stroke
 					(width 0.1524)
 					(type default)
@@ -8322,8 +9176,8 @@
 				)
 			)
 			(rectangle
-				(start 3.81 0.127)
-				(end 2.54 -0.127)
+				(start -1.27 -10.033)
+				(end 0 -10.287)
 				(stroke
 					(width 0.1524)
 					(type default)
@@ -8333,8 +9187,8 @@
 				)
 			)
 			(rectangle
-				(start 3.81 2.667)
-				(end 2.54 2.413)
+				(start -1.27 -12.573)
+				(end 0 -12.827)
 				(stroke
 					(width 0.1524)
 					(type default)
@@ -8344,8 +9198,8 @@
 				)
 			)
 			(rectangle
-				(start 3.81 5.207)
-				(end 2.54 4.953)
+				(start 3.81 10.287)
+				(end 2.54 10.033)
 				(stroke
 					(width 0.1524)
 					(type default)
@@ -8366,8 +9220,85 @@
 				)
 			)
 			(rectangle
-				(start 3.81 10.287)
-				(end 2.54 10.033)
+				(start 3.81 5.207)
+				(end 2.54 4.953)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 3.81 2.667)
+				(end 2.54 2.413)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 3.81 0.127)
+				(end 2.54 -0.127)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 3.81 -2.413)
+				(end 2.54 -2.667)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 3.81 -4.953)
+				(end 2.54 -5.207)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 3.81 -7.493)
+				(end 2.54 -7.747)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 3.81 -10.033)
+				(end 2.54 -10.287)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 3.81 -12.573)
+				(end 2.54 -12.827)
 				(stroke
 					(width 0.1524)
 					(type default)
@@ -8387,6 +9318,150 @@
 					)
 				)
 				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 10.16 180)
+				(length 3.81)
+				(name "Pin_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 7.62 0)
+				(length 3.81)
+				(name "Pin_3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 7.62 180)
+				(length 3.81)
+				(name "Pin_4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 5.08 0)
+				(length 3.81)
+				(name "Pin_5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 5.08 180)
+				(length 3.81)
+				(name "Pin_6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 2.54 0)
+				(length 3.81)
+				(name "Pin_7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 2.54 180)
+				(length 3.81)
+				(name "Pin_8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 3.81)
+				(name "Pin_9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -8575,24 +9650,6 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 10.16 180)
-				(length 3.81)
-				(name "Pin_2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
 				(at 7.62 -12.7 180)
 				(length 3.81)
 				(name "Pin_20"
@@ -8610,142 +9667,23 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -5.08 7.62 0)
-				(length 3.81)
-				(name "Pin_3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 7.62 7.62 180)
-				(length 3.81)
-				(name "Pin_4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -5.08 5.08 0)
-				(length 3.81)
-				(name "Pin_5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 7.62 5.08 180)
-				(length 3.81)
-				(name "Pin_6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -5.08 2.54 0)
-				(length 3.81)
-				(name "Pin_7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 7.62 2.54 180)
-				(length 3.81)
-				(name "Pin_8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -5.08 0 0)
-				(length 3.81)
-				(name "Pin_9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Pico Clasp 10"
 		(pin_names
-			(offset 1.016) hide)
+			(offset 1.016)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "J"
 			(at -7.62 16.51 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8755,6 +9693,8 @@
 		)
 		(property "Value" ""
 			(at 9.906 -6.858 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8764,290 +9704,87 @@
 		)
 		(property "Footprint" "Connector_Nova:MOLEX_2023961007"
 			(at 0.762 -33.274 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 0.254 -36.068 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at -0.254 -29.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Molex"
 			(at -0.254 -26.416 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Product Number" ""
 			(at -0.508 -22.352 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Purchase Link" ""
 			(at 0.254 -39.624 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "ki_keywords" "pico"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "Pico Clasp 10_0_0"
-			(rectangle
-				(start -6.985 -14.9225)
-				(end -5.3975 -15.5575)
-				(stroke
-					(width 0.1)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(rectangle
-				(start -6.985 -10.4775)
-				(end -5.3975 -9.8425)
-				(stroke
-					(width 0.1)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(rectangle
-				(start -6.985 -7.9375)
-				(end -5.3975 -7.3025)
-				(stroke
-					(width 0.1)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(rectangle
-				(start -6.985 -5.3975)
-				(end -5.3975 -4.7625)
-				(stroke
-					(width 0.1)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(rectangle
-				(start -6.985 -2.8575)
-				(end -5.3975 -2.2225)
-				(stroke
-					(width 0.1)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(rectangle
-				(start -6.985 -0.3175)
-				(end -5.3975 0.3175)
-				(stroke
-					(width 0.1)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(rectangle
-				(start -6.985 2.2225)
-				(end -5.3975 2.8575)
-				(stroke
-					(width 0.1)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(rectangle
-				(start -6.985 4.7625)
-				(end -5.3975 5.3975)
-				(stroke
-					(width 0.1)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(rectangle
-				(start -6.985 7.3025)
-				(end -5.3975 7.9375)
-				(stroke
-					(width 0.1)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(rectangle
-				(start -6.985 9.8425)
-				(end -5.3975 10.4775)
-				(stroke
-					(width 0.1)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(rectangle
-				(start -6.985 12.3825)
-				(end -5.3975 13.0175)
-				(stroke
-					(width 0.1)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
 			(polyline
 				(pts
-					(xy -7.62 -15.24) (xy -5.715 -15.24)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -7.62 -10.16) (xy -5.715 -10.16)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -7.62 -7.62) (xy -5.715 -7.62)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -7.62 -5.08) (xy -5.715 -5.08)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -7.62 -2.54) (xy -5.715 -2.54)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -7.62 0) (xy -5.715 0)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -7.62 2.54) (xy -5.715 2.54)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -7.62 5.08) (xy -5.715 5.08)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -7.62 7.62) (xy -5.715 7.62)
+					(xy -7.62 12.7) (xy -5.715 12.7)
 				)
 				(stroke
 					(width 0.254)
@@ -9071,7 +9808,7 @@
 			)
 			(polyline
 				(pts
-					(xy -7.62 12.7) (xy -5.715 12.7)
+					(xy -7.62 7.62) (xy -5.715 7.62)
 				)
 				(stroke
 					(width 0.254)
@@ -9079,6 +9816,223 @@
 				)
 				(fill
 					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -7.62 5.08) (xy -5.715 5.08)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -7.62 2.54) (xy -5.715 2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -7.62 0) (xy -5.715 0)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -7.62 -2.54) (xy -5.715 -2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -7.62 -5.08) (xy -5.715 -5.08)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -7.62 -7.62) (xy -5.715 -7.62)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -7.62 -10.16) (xy -5.715 -10.16)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -7.62 -15.24) (xy -5.715 -15.24)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -6.985 12.3825)
+				(end -5.3975 13.0175)
+				(stroke
+					(width 0.1)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start -6.985 9.8425)
+				(end -5.3975 10.4775)
+				(stroke
+					(width 0.1)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start -6.985 7.3025)
+				(end -5.3975 7.9375)
+				(stroke
+					(width 0.1)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start -6.985 4.7625)
+				(end -5.3975 5.3975)
+				(stroke
+					(width 0.1)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start -6.985 2.2225)
+				(end -5.3975 2.8575)
+				(stroke
+					(width 0.1)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start -6.985 -0.3175)
+				(end -5.3975 0.3175)
+				(stroke
+					(width 0.1)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start -6.985 -2.8575)
+				(end -5.3975 -2.2225)
+				(stroke
+					(width 0.1)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start -6.985 -5.3975)
+				(end -5.3975 -4.7625)
+				(stroke
+					(width 0.1)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start -6.985 -7.9375)
+				(end -5.3975 -7.3025)
+				(stroke
+					(width 0.1)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start -6.985 -10.4775)
+				(end -5.3975 -9.8425)
+				(stroke
+					(width 0.1)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start -6.985 -14.9225)
+				(end -5.3975 -15.5575)
+				(stroke
+					(width 0.1)
+					(type default)
+				)
+				(fill
+					(type outline)
 				)
 			)
 			(pin passive line
@@ -9241,24 +10195,6 @@
 				)
 			)
 			(pin passive line
-				(at -12.7 -10.16 0)
-				(length 5.08)
-				(name "10"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "10"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
 				(at -12.7 -7.62 0)
 				(length 5.08)
 				(name "9"
@@ -9269,6 +10205,24 @@
 					)
 				)
 				(number "9"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -12.7 -10.16 0)
+				(length 5.08)
+				(name "10"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "10"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -9295,15 +10249,22 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Pico Clasp 8"
 		(pin_names
-			(offset 1.016) hide)
+			(offset 1.016)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "J"
 			(at -7.62 16.51 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9313,6 +10274,8 @@
 		)
 		(property "Value" "5015680807"
 			(at -7.62 -17.78 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9322,244 +10285,87 @@
 		)
 		(property "Footprint" "Connector_Molex:Molex_Pico-Clasp_202396-0807_1x08-1MP_P1.00mm_Horizontal"
 			(at 0.762 -33.274 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.molex.com/pdm_docs/sd/5015680807_sd.pdf"
 			(at 0.254 -36.068 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "CONN HEADER SMD R/A 8POS 1MM"
 			(at -0.254 -29.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Molex"
 			(at -0.254 -26.416 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Product Number" "5015680807"
 			(at -0.508 -22.352 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Purchase Link" "https://www.digikey.com/short/c9d8mdnh"
 			(at 0.254 -39.624 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Type" "SMD"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "Pico Clasp 8_0_0"
-			(rectangle
-				(start -6.985 -13.0175)
-				(end -5.3975 -12.3825)
-				(stroke
-					(width 0.1)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(rectangle
-				(start -6.985 -5.3975)
-				(end -5.3975 -4.7625)
-				(stroke
-					(width 0.1)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(rectangle
-				(start -6.985 -2.8575)
-				(end -5.3975 -2.2225)
-				(stroke
-					(width 0.1)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(rectangle
-				(start -6.985 -0.3175)
-				(end -5.3975 0.3175)
-				(stroke
-					(width 0.1)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(rectangle
-				(start -6.985 2.2225)
-				(end -5.3975 2.8575)
-				(stroke
-					(width 0.1)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(rectangle
-				(start -6.985 4.7625)
-				(end -5.3975 5.3975)
-				(stroke
-					(width 0.1)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(rectangle
-				(start -6.985 7.3025)
-				(end -5.3975 7.9375)
-				(stroke
-					(width 0.1)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(rectangle
-				(start -6.985 9.8425)
-				(end -5.3975 10.4775)
-				(stroke
-					(width 0.1)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(rectangle
-				(start -6.985 12.3825)
-				(end -5.3975 13.0175)
-				(stroke
-					(width 0.1)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
 			(polyline
 				(pts
-					(xy -7.62 -12.7) (xy -5.715 -12.7)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -7.62 -5.08) (xy -5.715 -5.08)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -7.62 -2.54) (xy -5.715 -2.54)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -7.62 0) (xy -5.715 0)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -7.62 2.54) (xy -5.715 2.54)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -7.62 5.08) (xy -5.715 5.08)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -7.62 7.62) (xy -5.715 7.62)
+					(xy -7.62 12.7) (xy -5.715 12.7)
 				)
 				(stroke
 					(width 0.254)
@@ -9583,7 +10389,7 @@
 			)
 			(polyline
 				(pts
-					(xy -7.62 12.7) (xy -5.715 12.7)
+					(xy -7.62 7.62) (xy -5.715 7.62)
 				)
 				(stroke
 					(width 0.254)
@@ -9591,6 +10397,177 @@
 				)
 				(fill
 					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -7.62 5.08) (xy -5.715 5.08)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -7.62 2.54) (xy -5.715 2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -7.62 0) (xy -5.715 0)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -7.62 -2.54) (xy -5.715 -2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -7.62 -5.08) (xy -5.715 -5.08)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -7.62 -12.7) (xy -5.715 -12.7)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -6.985 12.3825)
+				(end -5.3975 13.0175)
+				(stroke
+					(width 0.1)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start -6.985 9.8425)
+				(end -5.3975 10.4775)
+				(stroke
+					(width 0.1)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start -6.985 7.3025)
+				(end -5.3975 7.9375)
+				(stroke
+					(width 0.1)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start -6.985 4.7625)
+				(end -5.3975 5.3975)
+				(stroke
+					(width 0.1)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start -6.985 2.2225)
+				(end -5.3975 2.8575)
+				(stroke
+					(width 0.1)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start -6.985 -0.3175)
+				(end -5.3975 0.3175)
+				(stroke
+					(width 0.1)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start -6.985 -2.8575)
+				(end -5.3975 -2.2225)
+				(stroke
+					(width 0.1)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start -6.985 -5.3975)
+				(end -5.3975 -4.7625)
+				(stroke
+					(width 0.1)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start -6.985 -13.0175)
+				(end -5.3975 -12.3825)
+				(stroke
+					(width 0.1)
+					(type default)
+				)
+				(fill
+					(type outline)
 				)
 			)
 			(pin passive line
@@ -9771,6 +10748,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "QTH-060-01-L-D-A"
 		(pin_names
@@ -9779,8 +10757,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "J"
 			(at -11.43 44.704 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9790,6 +10772,8 @@
 		)
 		(property "Value" "QTH-060-01-L-D-A"
 			(at -7.62 -43.18 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9799,76 +10783,92 @@
 		)
 		(property "Footprint" "Connector_Nova:SAMTEC_QTH-060-01-X-D-A"
 			(at 0.762 -52.578 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "http://suddendocs.samtec.com/prints/qth-xxx-xx-x-d-xxx-footprint.pdf"
 			(at 0 -55.372 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "CONN HDR 120POS SMD GOLD"
 			(at 0.762 -48.768 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Samtec Inc."
 			(at 0.508 -46.228 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Product Number" "QTH-060-01-L-D-A"
 			(at 0.508 -42.672 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Purchase Link" "https://www.digikey.com/short/wbzq705n"
 			(at 0.762 -58.674 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Type" "SMD"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "ki_keywords" "connector"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "QTH-060-01-L-D-A_1_0"
@@ -10542,7 +11542,8 @@
 			)
 			(pin no_connect line
 				(at -17.78 -5.08 0)
-				(length 5.08) hide
+				(length 5.08)
+				(hide yes)
 				(name "NC"
 					(effects
 						(font
@@ -10560,7 +11561,8 @@
 			)
 			(pin no_connect line
 				(at 17.78 -5.08 180)
-				(length 5.08) hide
+				(length 5.08)
+				(hide yes)
 				(name "NC"
 					(effects
 						(font
@@ -10578,7 +11580,8 @@
 			)
 			(pin no_connect line
 				(at -17.78 -7.62 0)
-				(length 5.08) hide
+				(length 5.08)
+				(hide yes)
 				(name "NC"
 					(effects
 						(font
@@ -10596,7 +11599,8 @@
 			)
 			(pin no_connect line
 				(at 17.78 -7.62 180)
-				(length 5.08) hide
+				(length 5.08)
+				(hide yes)
 				(name "NC"
 					(effects
 						(font
@@ -10650,7 +11654,8 @@
 			)
 			(pin no_connect line
 				(at -17.78 -12.7 0)
-				(length 5.08) hide
+				(length 5.08)
+				(hide yes)
 				(name "NC"
 					(effects
 						(font
@@ -10668,7 +11673,8 @@
 			)
 			(pin no_connect line
 				(at 17.78 -12.7 180)
-				(length 5.08) hide
+				(length 5.08)
+				(hide yes)
 				(name "NC"
 					(effects
 						(font
@@ -10686,7 +11692,8 @@
 			)
 			(pin no_connect line
 				(at -17.78 -15.24 0)
-				(length 5.08) hide
+				(length 5.08)
+				(hide yes)
 				(name "NC"
 					(effects
 						(font
@@ -10704,7 +11711,8 @@
 			)
 			(pin no_connect line
 				(at 17.78 -15.24 180)
-				(length 5.08) hide
+				(length 5.08)
+				(hide yes)
 				(name "NC"
 					(effects
 						(font
@@ -10758,7 +11766,8 @@
 			)
 			(pin no_connect line
 				(at -17.78 -20.32 0)
-				(length 5.08) hide
+				(length 5.08)
+				(hide yes)
 				(name "NC"
 					(effects
 						(font
@@ -10776,7 +11785,8 @@
 			)
 			(pin no_connect line
 				(at 17.78 -20.32 180)
-				(length 5.08) hide
+				(length 5.08)
+				(hide yes)
 				(name "NC"
 					(effects
 						(font
@@ -10794,7 +11804,8 @@
 			)
 			(pin no_connect line
 				(at -17.78 -22.86 0)
-				(length 5.08) hide
+				(length 5.08)
+				(hide yes)
 				(name "NC"
 					(effects
 						(font
@@ -10812,7 +11823,8 @@
 			)
 			(pin no_connect line
 				(at 17.78 -22.86 180)
-				(length 5.08) hide
+				(length 5.08)
+				(hide yes)
 				(name "NC"
 					(effects
 						(font
@@ -10866,7 +11878,8 @@
 			)
 			(pin no_connect line
 				(at -17.78 -27.94 0)
-				(length 5.08) hide
+				(length 5.08)
+				(hide yes)
 				(name "NC"
 					(effects
 						(font
@@ -10884,7 +11897,8 @@
 			)
 			(pin no_connect line
 				(at 17.78 -27.94 180)
-				(length 5.08) hide
+				(length 5.08)
+				(hide yes)
 				(name "NC"
 					(effects
 						(font
@@ -10902,7 +11916,8 @@
 			)
 			(pin no_connect line
 				(at -17.78 -30.48 0)
-				(length 5.08) hide
+				(length 5.08)
+				(hide yes)
 				(name "NC"
 					(effects
 						(font
@@ -10920,7 +11935,8 @@
 			)
 			(pin no_connect line
 				(at 17.78 -30.48 180)
-				(length 5.08) hide
+				(length 5.08)
+				(hide yes)
 				(name "NC"
 					(effects
 						(font
@@ -10938,7 +11954,8 @@
 			)
 			(pin no_connect line
 				(at -17.78 -33.02 0)
-				(length 5.08) hide
+				(length 5.08)
+				(hide yes)
 				(name "NC"
 					(effects
 						(font
@@ -10956,7 +11973,8 @@
 			)
 			(pin no_connect line
 				(at 17.78 -33.02 180)
-				(length 5.08) hide
+				(length 5.08)
+				(hide yes)
 				(name "NC"
 					(effects
 						(font
@@ -10992,7 +12010,8 @@
 			)
 			(pin power_in line
 				(at 17.78 -38.1 180)
-				(length 5.08) hide
+				(length 5.08)
+				(hide yes)
 				(name "GND"
 					(effects
 						(font
@@ -11010,7 +12029,8 @@
 			)
 			(pin power_in line
 				(at 17.78 -38.1 180)
-				(length 5.08) hide
+				(length 5.08)
+				(hide yes)
 				(name "GND"
 					(effects
 						(font
@@ -11028,7 +12048,8 @@
 			)
 			(pin power_in line
 				(at 17.78 -38.1 180)
-				(length 5.08) hide
+				(length 5.08)
+				(hide yes)
 				(name "GND"
 					(effects
 						(font
@@ -11066,387 +12087,10 @@
 					(justify left bottom)
 				)
 			)
-			(pin power_in line
-				(at 17.78 -7.62 180)
-				(length 5.08)
-				(name "GND"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "100"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at -17.78 -10.16 0)
-				(length 5.08) hide
-				(name "NC"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "101"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 17.78 -10.16 180)
-				(length 5.08)
-				(name "VDD_1V8"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "102"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at -17.78 -12.7 0)
-				(length 5.08) hide
-				(name "NC"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "103"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 17.78 -12.7 180)
-				(length 5.08) hide
-				(name "NC"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "104"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at -17.78 -15.24 0)
-				(length 5.08) hide
-				(name "NC"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "105"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 17.78 -15.24 180)
-				(length 5.08) hide
-				(name "NC"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "106"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at -17.78 -17.78 0)
-				(length 5.08) hide
-				(name "NC"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "107"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 17.78 -17.78 180)
-				(length 5.08)
-				(name "VDD_3V3"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "108"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at -17.78 -20.32 0)
-				(length 5.08) hide
-				(name "NC"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "109"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 17.78 -20.32 180)
-				(length 5.08)
-				(name "VDD_3V3"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "110"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at -17.78 -22.86 0)
-				(length 5.08) hide
-				(name "NC"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "111"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 17.78 -22.86 180)
-				(length 5.08) hide
-				(name "NC"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "112"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at -17.78 -25.4 0)
-				(length 5.08) hide
-				(name "NC"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "113"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 17.78 -25.4 180)
-				(length 5.08) hide
-				(name "NC"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "114"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at -17.78 -27.94 0)
-				(length 5.08) hide
-				(name "NC"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "115"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 17.78 -27.94 180)
-				(length 5.08)
-				(name "GND"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "116"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at -17.78 -30.48 0)
-				(length 5.08) hide
-				(name "NC"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "117"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 17.78 -30.48 180)
-				(length 5.08)
-				(name "VDD_3V3"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "118"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -17.78 -33.02 0)
-				(length 5.08)
-				(name "CAM_SYS_EN"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "119"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 17.78 -33.02 180)
-				(length 5.08)
-				(name "VDD_3V3"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "120"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
 			(pin no_connect line
 				(at -17.78 40.64 0)
-				(length 5.08) hide
+				(length 5.08)
+				(hide yes)
 				(name "NC"
 					(effects
 						(font
@@ -11464,7 +12108,8 @@
 			)
 			(pin no_connect line
 				(at 17.78 40.64 180)
-				(length 5.08) hide
+				(length 5.08)
+				(hide yes)
 				(name "NC"
 					(effects
 						(font
@@ -11518,7 +12163,8 @@
 			)
 			(pin no_connect line
 				(at -17.78 35.56 0)
-				(length 5.08) hide
+				(length 5.08)
+				(hide yes)
 				(name "NC"
 					(effects
 						(font
@@ -11536,7 +12182,8 @@
 			)
 			(pin no_connect line
 				(at 17.78 35.56 180)
-				(length 5.08) hide
+				(length 5.08)
+				(hide yes)
 				(name "NC"
 					(effects
 						(font
@@ -11554,7 +12201,8 @@
 			)
 			(pin no_connect line
 				(at -17.78 33.02 0)
-				(length 5.08) hide
+				(length 5.08)
+				(hide yes)
 				(name "NC"
 					(effects
 						(font
@@ -11572,7 +12220,8 @@
 			)
 			(pin no_connect line
 				(at 17.78 33.02 180)
-				(length 5.08) hide
+				(length 5.08)
+				(hide yes)
 				(name "NC"
 					(effects
 						(font
@@ -11626,7 +12275,8 @@
 			)
 			(pin no_connect line
 				(at -17.78 27.94 0)
-				(length 5.08) hide
+				(length 5.08)
+				(hide yes)
 				(name "NC"
 					(effects
 						(font
@@ -11644,7 +12294,8 @@
 			)
 			(pin no_connect line
 				(at 17.78 27.94 180)
-				(length 5.08) hide
+				(length 5.08)
+				(hide yes)
 				(name "NC"
 					(effects
 						(font
@@ -11662,7 +12313,8 @@
 			)
 			(pin no_connect line
 				(at -17.78 25.4 0)
-				(length 5.08) hide
+				(length 5.08)
+				(hide yes)
 				(name "NC"
 					(effects
 						(font
@@ -11680,7 +12332,8 @@
 			)
 			(pin no_connect line
 				(at 17.78 25.4 180)
-				(length 5.08) hide
+				(length 5.08)
+				(hide yes)
 				(name "NC"
 					(effects
 						(font
@@ -11716,7 +12369,8 @@
 			)
 			(pin no_connect line
 				(at 17.78 22.86 180)
-				(length 5.08) hide
+				(length 5.08)
+				(hide yes)
 				(name "NC"
 					(effects
 						(font
@@ -11752,7 +12406,8 @@
 			)
 			(pin no_connect line
 				(at 17.78 20.32 180)
-				(length 5.08) hide
+				(length 5.08)
+				(hide yes)
 				(name "NC"
 					(effects
 						(font
@@ -11860,7 +12515,8 @@
 			)
 			(pin no_connect line
 				(at 17.78 12.7 180)
-				(length 5.08) hide
+				(length 5.08)
+				(hide yes)
 				(name "NC"
 					(effects
 						(font
@@ -11878,7 +12534,8 @@
 			)
 			(pin no_connect line
 				(at -17.78 10.16 0)
-				(length 5.08) hide
+				(length 5.08)
+				(hide yes)
 				(name "NC"
 					(effects
 						(font
@@ -11896,7 +12553,8 @@
 			)
 			(pin no_connect line
 				(at 17.78 10.16 180)
-				(length 5.08) hide
+				(length 5.08)
+				(hide yes)
 				(name "NC"
 					(effects
 						(font
@@ -12004,7 +12662,8 @@
 			)
 			(pin no_connect line
 				(at 17.78 2.54 180)
-				(length 5.08) hide
+				(length 5.08)
+				(hide yes)
 				(name "CAM1_RST"
 					(effects
 						(font
@@ -12040,7 +12699,8 @@
 			)
 			(pin no_connect line
 				(at 17.78 0 180)
-				(length 5.08) hide
+				(length 5.08)
+				(hide yes)
 				(name "NC"
 					(effects
 						(font
@@ -12076,7 +12736,8 @@
 			)
 			(pin no_connect line
 				(at 17.78 -2.54 180)
-				(length 5.08) hide
+				(length 5.08)
+				(hide yes)
 				(name "NC"
 					(effects
 						(font
@@ -12094,7 +12755,8 @@
 			)
 			(pin no_connect line
 				(at -17.78 -5.08 0)
-				(length 5.08) hide
+				(length 5.08)
+				(hide yes)
 				(name "NC"
 					(effects
 						(font
@@ -12112,7 +12774,8 @@
 			)
 			(pin no_connect line
 				(at 17.78 -5.08 180)
-				(length 5.08) hide
+				(length 5.08)
+				(hide yes)
 				(name "NC"
 					(effects
 						(font
@@ -12147,6 +12810,397 @@
 				)
 			)
 			(pin power_in line
+				(at 17.78 -7.62 180)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "100"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -17.78 -10.16 0)
+				(length 5.08)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "101"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 17.78 -10.16 180)
+				(length 5.08)
+				(name "VDD_1V8"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "102"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -17.78 -12.7 0)
+				(length 5.08)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "103"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 17.78 -12.7 180)
+				(length 5.08)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "104"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -17.78 -15.24 0)
+				(length 5.08)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "105"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 17.78 -15.24 180)
+				(length 5.08)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "106"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -17.78 -17.78 0)
+				(length 5.08)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "107"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 17.78 -17.78 180)
+				(length 5.08)
+				(name "VDD_3V3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "108"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -17.78 -20.32 0)
+				(length 5.08)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "109"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 17.78 -20.32 180)
+				(length 5.08)
+				(name "VDD_3V3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "110"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -17.78 -22.86 0)
+				(length 5.08)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "111"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 17.78 -22.86 180)
+				(length 5.08)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "112"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -17.78 -25.4 0)
+				(length 5.08)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "113"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 17.78 -25.4 180)
+				(length 5.08)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "114"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -17.78 -27.94 0)
+				(length 5.08)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "115"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 17.78 -27.94 180)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "116"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -17.78 -30.48 0)
+				(length 5.08)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "117"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 17.78 -30.48 180)
+				(length 5.08)
+				(name "VDD_3V3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "118"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -17.78 -33.02 0)
+				(length 5.08)
+				(name "CAM_SYS_EN"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "119"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 17.78 -33.02 180)
+				(length 5.08)
+				(name "VDD_3V3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "120"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
 				(at 17.78 -38.1 180)
 				(length 5.08)
 				(name "GND"
@@ -12166,7 +13220,8 @@
 			)
 			(pin power_in line
 				(at 17.78 -38.1 180)
-				(length 5.08) hide
+				(length 5.08)
+				(hide yes)
 				(name "GND"
 					(effects
 						(font
@@ -12184,7 +13239,8 @@
 			)
 			(pin power_in line
 				(at 17.78 -38.1 180)
-				(length 5.08) hide
+				(length 5.08)
+				(hide yes)
 				(name "GND"
 					(effects
 						(font
@@ -12202,7 +13258,8 @@
 			)
 			(pin power_in line
 				(at 17.78 -38.1 180)
-				(length 5.08) hide
+				(length 5.08)
+				(hide yes)
 				(name "GND"
 					(effects
 						(font
@@ -12219,16 +13276,25 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "SMA-J-P-X-ST-TH1"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 1.016) hide)
+			(offset 1.016)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "J"
 			(at -3.81 4.064 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12238,6 +13304,8 @@
 		)
 		(property "Value" "SMA-J-P-X-ST-TH1"
 			(at -4.064 -4.318 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12247,76 +13315,76 @@
 		)
 		(property "Footprint" "Connector_Nova:SAMTEC_SMA-J-P-X-ST-TH1"
 			(at 0.254 -11.938 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6129/sma-j-p-x-st-th1-mkt.pdf"
 			(at 0 -14.478 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "CONN SMA JACK STR 50 OHM PCB"
 			(at 0 -17.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Samtec"
 			(at -0.254 -27.178 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Product Number" "SMA-J-P-H-ST-TH1"
 			(at -0.254 -20.574 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Purchase Link" "https://www.digikey.com/short/8fcq4q53"
 			(at 0.508 -23.368 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "SMA-J-P-X-ST-TH1_0_0"
 			(polyline
 				(pts
-					(xy -3.302 -0.762) (xy -2.54 0)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.302 0.762) (xy -2.54 0)
+					(xy -3.302 3.302) (xy -2.54 2.54)
 				)
 				(stroke
 					(width 0.254)
@@ -12340,7 +13408,7 @@
 			)
 			(polyline
 				(pts
-					(xy -3.302 3.302) (xy -2.54 2.54)
+					(xy -3.302 0.762) (xy -2.54 0)
 				)
 				(stroke
 					(width 0.254)
@@ -12352,7 +13420,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.54 0) (xy 0 0)
+					(xy -3.302 -0.762) (xy -2.54 0)
 				)
 				(stroke
 					(width 0.254)
@@ -12365,6 +13433,18 @@
 			(polyline
 				(pts
 					(xy -2.54 2.54) (xy 2.54 2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 0) (xy 0 0)
 				)
 				(stroke
 					(width 0.254)
@@ -12390,6 +13470,76 @@
 				(pts
 					(xy -0.762 -0.762) (xy -1.27 -1.524)
 				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 2.54)
+				(radius 1.016)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 1.524) (xy 0 0)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 1.524) (xy 1.016 1.524)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0) (xy -2.286 0)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0) (xy 0 -0.762)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 0)
+				(radius 0.254)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -12436,54 +13586,6 @@
 			)
 			(polyline
 				(pts
-					(xy 0 0) (xy -2.286 0)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 0) (xy 0 -0.762)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 1.524) (xy 0 0)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 1.524) (xy 1.016 1.524)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
 					(xy 0.762 -0.762) (xy 0.254 -1.524)
 				)
 				(stroke
@@ -12506,32 +13608,10 @@
 					(type none)
 				)
 			)
-			(circle
-				(center 0 0)
-				(radius 0.254)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 0 2.54)
-				(radius 1.016)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(pin passive line
 				(at 2.54 2.54 180)
 				(length 5.08)
-				(name "~"
+				(name ""
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -12549,7 +13629,7 @@
 			(pin passive line
 				(at 2.54 0 180)
 				(length 5.08)
-				(name "~"
+				(name ""
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -12567,7 +13647,7 @@
 			(pin passive line
 				(at 2.54 0 180)
 				(length 5.08)
-				(name "~"
+				(name ""
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -12585,7 +13665,7 @@
 			(pin passive line
 				(at 2.54 0 180)
 				(length 5.08)
-				(name "~"
+				(name ""
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -12603,7 +13683,7 @@
 			(pin passive line
 				(at 2.54 0 180)
 				(length 5.08)
-				(name "~"
+				(name ""
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -12619,5 +13699,6 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 )
