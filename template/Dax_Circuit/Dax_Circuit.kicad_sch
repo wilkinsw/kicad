@@ -5,7 +5,7 @@
 	(uuid "c9594084-cb2c-4749-976e-0da457fd6d87")
 	(paper "B")
 	(title_block
-		(title "DAX-C00-@{if((\"${VARIANT}\"==\"\"), \"001\", \"${VARIANT}\")}")
+		(title "DAX-C${CIRCUIT_NUMBER}-@{if((\"${VARIANT}\"==\"\"), \"001\", \"${VARIANT}\")}")
 		(rev "A1")
 	)
 	(lib_symbols)

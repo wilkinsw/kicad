@@ -8,7 +8,7 @@
 	)
 	(paper "A4")
 	(title_block
-		(title "DAX-C00-@{if((\"${VARIANT}\"==\"\"), \"001\", \"${VARIANT}\")}")
+		(title "DAX-C${CIRCUIT_NUMBER}-@{if((\"${VARIANT}\"==\"\"), \"001\", \"${VARIANT}\")}")
 		(rev "A1")
 		(company "Nova Dynamics LLC")
 	)
@@ -129,6 +129,6 @@
 			(outputdirectory "export/gerbers")
 		)
 	)
-	(property "REVISION" "A1")
+	(property "CIRCUIT_NUMBER" "00")
 	(embedded_fonts no)
 )
