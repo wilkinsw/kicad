@@ -1,0 +1,115 @@
+(footprint "MOLEX_0039281023"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -4.3 3.2385 90)
+		(layer "F.SilkS")
+		(uuid "e0b9c1b1-6275-4023-8350-8c08547237e4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MOLEX_0039281023"
+		(at 0 11.5 0)
+		(layer "F.Fab")
+		(uuid "5a251170-a88f-43d3-834a-e2763735f5ba")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "33825dd1-eeee-42b5-be16-dfd48ecdce72")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c5f177f0-aa8c-4479-9eb1-c4f5c48dd8b4")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -3.2258 -2.3876)
+		(end 3.3 8.8646)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "3d0c9de7-5b4a-4f11-ae86-ff4976c00943")
+	)
+	(fp_circle
+		(center 0 -3.7)
+		(end 0 -4.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "5df7d6bd-bb6d-457e-8713-f66250d855e6")
+	)
+	(fp_rect
+		(start -3.0988 -2.2606)
+		(end 3.0988 8.7376)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "1c9c341d-ce46-4c29-94c6-caad91f70d91")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.9558 1.9558)
+		(drill 1.4478)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "4695c62c-a27a-416a-af95-4ba90c4b224c")
+	)
+	(pad "2" thru_hole circle
+		(at 0 5.5)
+		(size 1.9558 1.9558)
+		(drill 1.4478)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "2a5af614-344f-48da-9720-b427fe6eb0a1")
+	)
+	(embedded_fonts no)
+	(model "../../3dmodels/Connector_Nova.3dshapes/39281023.step"
+		(offset
+			(xyz 0 -3 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
