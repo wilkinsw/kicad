@@ -32,7 +32,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:MSOP-8-1EP_3x3mm_P0.65mm_EP1.5x1.8mm"
-			(at 22.606 -17.018 0)
+			(at 22.86 -35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -43,8 +43,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "AL8861MP-13"
-			(at 22.606 -17.018 0)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AL8861.pdf"
+			(at 23.622 -32.258 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -56,6 +56,28 @@
 			)
 		)
 		(property "Description" "LED Driver IC 1 Output DC DC Regulator Step-Down (Buck) Analog, PWM Dimming 1.5A 8-MSOP-EP"
+			(at 23.622 -39.624 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Diodes Incorporated"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Product Number" "AL8861MP-13"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -67,7 +89,7 @@
 			)
 		)
 		(property "Purchase Link" "https://www.digikey.com/short/pdzcqq99"
-			(at 0 0 0)
+			(at 24.13 -43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -111,7 +133,38 @@
 			)
 		)
 		(symbol "AL8861MP-13_0_1"
-			(pin unspecified line
+			(pin power_in line
+				(at 45.72 -2.54 180)
+				(length 7.62)
+				(name "VIN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "AL8861MP-13_1_1"
+			(rectangle
+				(start 7.62 5.08)
+				(end 38.1 -15.24)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin input line
 				(at 0 0 0)
 				(length 7.62)
 				(name "ISENSE"
@@ -129,7 +182,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin power_in line
 				(at 0 -2.54 0)
 				(length 7.62)
 				(name "GND"
@@ -147,7 +200,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin power_in line
 				(at 0 -5.08 0)
 				(length 7.62)
 				(name "GND"
@@ -165,7 +218,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin input line
 				(at 0 -7.62 0)
 				(length 7.62)
 				(name "VSET"
@@ -183,7 +236,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin input line
 				(at 45.72 -10.16 180)
 				(length 7.62)
 				(name "LX"
@@ -201,7 +254,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin input line
 				(at 45.72 -7.62 180)
 				(length 7.62)
 				(name "LX"
@@ -222,6 +275,7 @@
 			(pin no_connect line
 				(at 45.72 -5.08 180)
 				(length 7.62)
+				(hide yes)
 				(name "NC"
 					(effects
 						(font
@@ -237,25 +291,7 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 45.72 -2.54 180)
-				(length 7.62)
-				(name "VIN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_out line
+			(pin passive line
 				(at 45.72 0 180)
 				(length 7.62)
 				(name "EPAD"
@@ -271,19 +307,6 @@
 							(size 1.27 1.27)
 						)
 					)
-				)
-			)
-		)
-		(symbol "AL8861MP-13_1_1"
-			(rectangle
-				(start 7.62 5.08)
-				(end 38.1 -15.24)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
 				)
 			)
 		)
