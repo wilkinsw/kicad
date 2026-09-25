@@ -6,7 +6,7 @@
 	(property "Reference" "REF**"
 		(at -4.3 3.2385 90)
 		(layer "F.SilkS")
-		(uuid "e0b9c1b1-6275-4023-8350-8c08547237e4")
+		(uuid "7fb873ee-9d7c-4786-aeb6-22b1280451f7")
 		(effects
 			(font
 				(size 1 1)
@@ -17,7 +17,7 @@
 	(property "Value" "MOLEX_0039281023"
 		(at 0 11.5 0)
 		(layer "F.Fab")
-		(uuid "5a251170-a88f-43d3-834a-e2763735f5ba")
+		(uuid "6d4eb399-30da-47ba-aa69-51c5eb70e61b")
 		(effects
 			(font
 				(size 1 1)
@@ -29,7 +29,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "33825dd1-eeee-42b5-be16-dfd48ecdce72")
+		(uuid "58d051ed-ef81-4ea4-b2e8-c49f56f1523f")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -40,7 +40,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "c5f177f0-aa8c-4479-9eb1-c4f5c48dd8b4")
+		(uuid "7b86f147-cf97-49ed-bb62-771b08a40059")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -58,7 +58,18 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "3d0c9de7-5b4a-4f11-ae86-ff4976c00943")
+		(uuid "56d73d90-dd9d-47d7-8001-873ce879f031")
+	)
+	(fp_rect
+		(start -1.7 7.9)
+		(end 1.7 8.8354)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "6ecce638-e0ea-49e9-852c-97ff7a2b86af")
 	)
 	(fp_circle
 		(center 0 -3.7)
@@ -69,7 +80,7 @@
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "5df7d6bd-bb6d-457e-8713-f66250d855e6")
+		(uuid "74a51a2c-5300-4759-8c9a-1da785d0ec8a")
 	)
 	(fp_rect
 		(start -3.0988 -2.2606)
@@ -80,7 +91,18 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "1c9c341d-ce46-4c29-94c6-caad91f70d91")
+		(uuid "c72cdfde-f06e-49ec-9381-063ee6a10ddc")
+	)
+	(fp_text user "Side Latch"
+		(at -0.003804 8.294068 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "55c4c867-3859-4503-a297-7a1d94782d14")
+		(effects
+			(font
+				(size 0.5 0.4)
+			)
+		)
 	)
 	(pad "1" thru_hole circle
 		(at 0 0)
@@ -89,7 +111,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(solder_mask_margin 0.102)
-		(uuid "4695c62c-a27a-416a-af95-4ba90c4b224c")
+		(uuid "2985361d-401b-4074-abec-9e7993d172f6")
 	)
 	(pad "2" thru_hole circle
 		(at 0 5.5)
@@ -98,7 +120,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(solder_mask_margin 0.102)
-		(uuid "2a5af614-344f-48da-9720-b427fe6eb0a1")
+		(uuid "7c72395c-e678-4979-bb31-f73b570e1311")
 	)
 	(embedded_fonts no)
 	(model "../../3dmodels/Connector_Nova.3dshapes/39281023.step"
@@ -109,7 +131,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -90 -0 -0)
+			(xyz -90 -0 -180)
 		)
 	)
 )
