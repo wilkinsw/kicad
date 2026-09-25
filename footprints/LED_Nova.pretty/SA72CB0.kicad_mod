@@ -1,0 +1,190 @@
+(footprint "SA72CB0"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Product Number: SA85SB0 Description: THERMOSTAT 85DEG C SPST-NC 4SMD Part Number (Digi-Key): SA85SB0CT-ND Purchase Link: https://www.digikey.com/short/hd5w7nq1 https://www.digikey.com/short/hd5w7nq1")
+	(property "Reference" "F1"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "13191fa2-d690-41f4-99e5-55486faa8b8d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Value" "SA85SB0"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5f37d201-6c73-4311-abb2-c371251f35fc")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/sa.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bd2e43de-1c37-4bcd-a39a-4f154dfb8a3e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ee02c40d-2417-4ba1-ad62-40327b512814")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Manufacturer" "Bourns Inc."
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b9735b6e-7aed-4697-ae9d-1ab6c29462bd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Product Number" "SA85SB0"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2e554a8f-c342-4a60-a353-132b74440bed")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Purchase Link" "https://www.digikey.com/short/wpz92dzq"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "10f2072b-9eba-468d-92f4-f1b95a993eeb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property ki_fp_filters "*polyfuse* *PTC*")
+	(sheetname "/")
+	(sheetfile "dax-c33.kicad_sch")
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start 1 -0.85)
+		(end 6.4 -0.85)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "28fb585e-e438-41bd-8a4c-5d14855a5f2e")
+	)
+	(fp_line
+		(start 1 2.35)
+		(end 1 -0.85)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "56af70b1-b24d-4ce7-9e10-29dc8c1d19b6")
+	)
+	(fp_line
+		(start 6.4 -0.85)
+		(end 6.4 2.35)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "71bc495c-e810-4f98-93fa-c85410bd11e7")
+	)
+	(fp_line
+		(start 6.4 2.35)
+		(end 1 2.35)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "387b6dd0-6985-4ea2-ac9a-3d21e8d2eb20")
+	)
+	(pad "1" smd rect
+		(at 0 0)
+		(size 1.6 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.0508)
+		(solder_paste_margin -0.0508)
+		(zone_connect 2)
+		(thermal_bridge_angle 0)
+		(uuid "8914783f-4b4e-410c-8c23-ae2f9206792a")
+	)
+	(pad "1" smd rect
+		(at 0 1.5)
+		(size 1.6 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.0508)
+		(solder_paste_margin -0.0508)
+		(zone_connect 2)
+		(thermal_bridge_angle 0)
+		(uuid "d3578654-d327-498a-b688-ad02e6811921")
+	)
+	(pad "2" smd rect
+		(at 7.4 0)
+		(size 1.6 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.0508)
+		(solder_paste_margin -0.0508)
+		(zone_connect 2)
+		(thermal_bridge_angle 0)
+		(uuid "a82b56ca-2cbc-445c-b987-91560ec4fe98")
+	)
+	(pad "2" smd rect
+		(at 7.4 1.5)
+		(size 1.6 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.0508)
+		(solder_paste_margin -0.0508)
+		(zone_connect 2)
+		(thermal_bridge_angle 0)
+		(uuid "0e83fd37-0968-42c8-bebf-260be716b9f5")
+	)
+	(embedded_fonts no)
+	(model "../../3dmodels/LED_Nova.3dshapes/SA_series.step"
+		(offset
+			(xyz 1 -2.35 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
