@@ -239,7 +239,7 @@
 		(uuid "06a3a0e0-9b53-45f7-bfd7-209847427e80")
 	)
 	(embedded_fonts no)
-	(model "/home/ww/hardware/kicad/3dmodels/Connector_Nova.3dshapes/39310068.step"
+	(model "../../3dmodels/Connector_Nova.3dshapes/39310068.step"
 		(offset
 			(xyz 4.2 -3 0)
 		)
